@@ -1,0 +1,748 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Canadian Rockies 2027 · Family Trip (Draft)</title>
+<meta name="description" content="Draft plan for a possible June 2027 Canadian Rockies family road trip: Banff, Lake Louise, Icefields Parkway, Jasper.">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#123a2c">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22%3E%F0%9F%8F%94%EF%B8%8F%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/leaflet.css">
+<link rel="preload" as="image" href="assets/moraine.jpg" imagesrcset="assets/moraine-800.jpg 800w, assets/moraine.jpg 1400w" imagesizes="100vw">
+<style>:root{--forest:#123a2c;--forest2:#1d5240;--glacier:#17a2a6;--glacier2:#7fd6d3;--ice:#e8f6f6;--snow:#f7f9f8;--sun:#f2a65a;--berry:#d9576b;--slate:#24343d;--muted:#5d6f78;--card:#fff;--r:18px;--shadow:0 10px 30px rgba(18,58,44,.12)}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:70px}
+body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--slate);background:var(--snow);line-height:1.6;font-size:17px}
+img{max-width:100%;height:auto;display:block}
+h1,h2,h3{font-family:Fraunces,Georgia,serif;line-height:1.15;margin:0 0 .4em;color:var(--forest)}
+h2{font-size:clamp(2rem,4.5vw,3rem)}h3{font-size:1.3rem}
+a{color:var(--forest2)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+section{padding:80px 0}
+section.alt{background:#fff}
+section.dark{background:var(--forest);color:#e7f1ee}section.dark h2,section.dark h3{color:#fff}
+.eyebrow{text-transform:uppercase;letter-spacing:.18em;font-size:.78rem;font-weight:700;color:var(--glacier);margin-bottom:.6em}
+.lead{font-size:1.15rem;color:var(--muted);max-width:760px}
+section.dark .lead{color:#bcd6cf}
+/* nav */
+nav.top{position:sticky;top:0;z-index:50;background:rgba(18,58,44,.92);backdrop-filter:blur(10px);color:#fff}
+nav.top .wrap{display:flex;align-items:center;gap:18px;height:60px}
+nav.top .brand{font-family:Fraunces,serif;font-weight:700;font-size:1.15rem;color:#fff;text-decoration:none;white-space:nowrap}
+nav.top .links{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;margin-left:auto}
+nav.top .links::-webkit-scrollbar{display:none}
+nav.top .links a{color:#d6ebe5;text-decoration:none;font-size:.88rem;font-weight:600;padding:7px 11px;border-radius:99px;white-space:nowrap}
+nav.top .links a:hover,nav.top .links a.on{background:rgba(255,255,255,.14);color:#fff}
+.menu-btn{display:none;margin-left:auto;background:none;border:1px solid rgba(255,255,255,.4);color:#fff;border-radius:10px;padding:6px 12px;font-size:1rem}
+@media(max-width:860px){.menu-btn{display:block}nav.top .links{display:none;position:absolute;top:60px;left:0;right:0;flex-direction:column;background:var(--forest);padding:10px 16px 16px;margin:0}nav.top .links.open{display:flex}}
+/* draft banner */
+.draft{background:var(--sun);color:#3a2306;text-align:center;font-weight:700;font-size:.92rem;padding:8px 14px}
+/* hero */
+.hero{position:relative;min-height:92vh;display:flex;align-items:flex-end;color:#fff;overflow:hidden}
+.kb{position:absolute;inset:0;overflow:hidden}
+.hero img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:0;animation:kb 27s linear infinite;will-change:transform,opacity}
+.hero img.s1{animation-delay:0s}.hero img.s2{animation-delay:9s}.hero img.s3{animation-delay:18s}
+@keyframes kb{0%{opacity:0;transform:scale(1.12) translate(2%,1%)}5%{opacity:1}33%{opacity:1}40%{opacity:0;transform:scale(1.0) translate(-2%,-1%)}100%{opacity:0;transform:scale(1.0) translate(-2%,-1%)}}
+@media(prefers-reduced-motion:reduce){.hero img.bg{animation:none}.hero img.s1{opacity:1}}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.05) 30%,rgba(8,30,24,.85))}
+.hero .wrap{position:relative;z-index:2;padding-bottom:70px;width:100%}
+.hero h1{color:#fff;font-size:clamp(2.8rem,8vw,6rem);margin-bottom:.15em;text-shadow:0 4px 30px rgba(0,0,0,.4)}
+.hero p.sub{font-size:clamp(1.05rem,2.2vw,1.4rem);max-width:720px;opacity:.95}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0}
+.chip{background:rgba(255,255,255,.16);border:1px solid rgba(255,255,255,.35);padding:7px 14px;border-radius:99px;font-weight:600;font-size:.92rem;backdrop-filter:blur(6px)}
+.btn{display:inline-block;background:var(--glacier);color:#fff;text-decoration:none;font-weight:700;padding:13px 22px;border-radius:99px;margin:6px 8px 0 0;box-shadow:0 8px 24px rgba(23,162,166,.35)}
+.btn.ghost{background:transparent;border:2px solid #fff;box-shadow:none}
+.countdown{margin-top:20px;font-size:.95rem;opacity:.9}
+.countdown b{font-size:1.4rem;font-family:Fraunces,serif}
+/* grids & cards */
+.grid{display:grid;gap:22px}
+.g2{grid-template-columns:repeat(auto-fit,minmax(320px,1fr))}
+.g3{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.g4{grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.card{background:var(--card);border-radius:var(--r);box-shadow:var(--shadow);overflow:hidden}
+.card .pad{padding:20px 22px}
+.card img{width:100%;aspect-ratio:3/2;object-fit:cover}
+.card h3{margin-top:.1em}
+.card p{margin:.3em 0;color:var(--muted)}
+.tag{display:inline-block;background:var(--ice);color:var(--forest2);font-size:.75rem;font-weight:700;padding:3px 10px;border-radius:99px;margin:0 6px 6px 0}
+.tag.warn{background:#fde7e2;color:#a3341f}
+.tag.sun{background:#fdecd8;color:#8a4b0c}
+/* glance */
+.glance{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:14px;margin-top:30px}
+.stat{background:#fff;border-radius:16px;padding:18px;box-shadow:var(--shadow);text-align:center}
+.stat b{display:block;font-family:Fraunces,serif;font-size:1.9rem;color:var(--glacier)}
+.stat span{font-size:.9rem;color:var(--muted)}
+/* map */
+#map{height:560px;border-radius:var(--r);box-shadow:var(--shadow);z-index:1}
+@media(max-width:700px){#map{height:420px}}
+.legs{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:12px;margin-top:24px}
+.leg{background:#fff;border-left:5px solid var(--glacier);border-radius:12px;padding:12px 16px;box-shadow:0 4px 14px rgba(0,0,0,.06)}
+.leg b{display:block;color:var(--forest)}.leg .t{font-family:Fraunces,serif;font-size:1.35rem;color:var(--glacier)}
+.leg small{color:var(--muted)}
+.leg.opt{border-color:var(--sun)}
+.note{font-size:.88rem;color:var(--muted);margin-top:14px}
+/* itinerary */
+.day{display:grid;grid-template-columns:1.05fr 1fr;gap:0;background:#fff;border-radius:var(--r);box-shadow:var(--shadow);overflow:hidden;margin-bottom:28px}
+.day:nth-child(even){direction:rtl}.day:nth-child(even)>*{direction:ltr}
+.day .pics{display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:3px;min-height:380px}
+.day .pics img{width:100%;height:100%;object-fit:cover;cursor:zoom-in}
+.day .pics img:first-child{grid-column:1/3}
+.day .pics.one img{grid-row:1/3}
+.day .txt{padding:30px 32px}
+.daynum{display:inline-block;background:var(--forest);color:#fff;font-weight:800;border-radius:10px;padding:4px 12px;font-size:.85rem;letter-spacing:.06em}
+.day ul{padding-left:1.1em;margin:.6em 0}.day li{margin:.3em 0}
+.tip{background:var(--ice);border-radius:12px;padding:10px 14px;font-size:.93rem;margin-top:10px}
+.tip.warn{background:#fff1ec}
+@media(max-width:860px){.day,.day:nth-child(even){grid-template-columns:1fr;direction:ltr}.day .pics{min-height:260px}.day .txt{padding:22px}}
+/* girls */
+.love{position:relative;border-radius:var(--r);overflow:hidden;min-height:300px;color:#fff;display:flex;align-items:flex-end;box-shadow:var(--shadow)}
+.love img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:transform .6s}
+.love:hover img{transform:scale(1.06)}
+.love:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 35%,rgba(0,0,0,.8))}
+.love div{position:relative;z-index:2;padding:18px 20px}
+.love h3{color:#fff;margin-bottom:.2em}.love p{margin:0;font-size:.95rem;opacity:.92}
+.emoji{font-size:1.6rem}
+/* bingo */
+.bingo{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;max-width:560px;margin-top:20px}
+.bingo button{aspect-ratio:1;border:2px dashed #9fd8d6;background:#fff;border-radius:14px;font-size:.8rem;font-weight:700;color:var(--forest);cursor:pointer;padding:4px}
+.bingo button span{display:block;font-size:1.7rem}
+.bingo button.hit{background:var(--glacier);color:#fff;border-style:solid;border-color:var(--glacier)}
+/* video */
+.vid{position:relative;aspect-ratio:16/9;border-radius:14px;overflow:hidden;background:#000;cursor:pointer}
+.vid img{width:100%;height:100%;object-fit:cover;opacity:.85;transition:opacity .3s}
+.vid:hover img{opacity:1}
+.vid .play{position:absolute;inset:0;margin:auto;width:72px;height:72px;border-radius:50%;background:rgba(217,87,107,.95);display:flex;align-items:center;justify-content:center;box-shadow:0 6px 24px rgba(0,0,0,.4)}
+.vid .play:after{content:"";border-left:22px solid #fff;border-top:13px solid transparent;border-bottom:13px solid transparent;margin-left:6px}
+.vid iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.vcap{padding:12px 4px 0}.vcap b{display:block;color:var(--forest)}.vcap small{color:var(--muted)}
+section.dark .vcap b{color:#fff}section.dark .vcap small{color:#a9c7bf}
+/* food */
+.food{display:flex;gap:14px;align-items:flex-start;background:#fff;border-radius:14px;padding:14px 16px;box-shadow:0 4px 14px rgba(0,0,0,.06)}
+.food .ic{font-size:1.7rem}.food b{color:var(--forest)}.food p{margin:.15em 0 0;color:var(--muted);font-size:.93rem}
+/* checklist */
+.check{background:#fff;border-radius:var(--r);box-shadow:var(--shadow);padding:20px 22px}
+.check label{display:flex;gap:10px;align-items:flex-start;padding:7px 0;border-bottom:1px dashed #e3ecea;cursor:pointer;font-size:.97rem}
+.check label:last-child{border:0}
+.check input{appearance:none;width:22px;height:22px;border:2px solid var(--glacier);border-radius:7px;flex:none;margin-top:2px;cursor:pointer;position:relative}
+.check input:checked{background:var(--glacier)}
+.check input:checked:after{content:"✓";color:#fff;position:absolute;inset:0;text-align:center;font-weight:800;font-size:15px;line-height:19px}
+.check input:checked+span{text-decoration:line-through;color:#93a4ab}
+.progress{height:10px;background:#dfeeed;border-radius:99px;overflow:hidden;margin:10px 0 24px;max-width:500px}
+.progress i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--glacier),var(--glacier2));transition:width .3s}
+/* tables */
+table{width:100%;border-collapse:collapse;background:#fff;border-radius:14px;overflow:hidden;box-shadow:var(--shadow);font-size:.95rem}
+th,td{padding:12px 14px;text-align:left;border-bottom:1px solid #edf2f1}
+th{background:var(--forest);color:#fff;font-weight:700}
+tr.total td{font-weight:800;background:var(--ice);color:var(--forest)}
+.tablewrap{overflow-x:auto}
+/* safety */
+.safe{background:#fff;border-radius:16px;padding:20px;box-shadow:var(--shadow);border-top:5px solid var(--berry)}
+.safe .emoji{font-size:2rem}
+/* faq */
+details{background:#fff;border-radius:14px;margin-bottom:10px;box-shadow:0 4px 14px rgba(0,0,0,.06);padding:0 18px}
+summary{cursor:pointer;font-weight:700;color:var(--forest);padding:16px 0;list-style:none;display:flex;justify-content:space-between;gap:10px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";font-size:1.4rem;color:var(--glacier);line-height:1}
+details[open] summary:after{content:"–"}
+details p{margin:0 0 16px;color:var(--muted)}
+/* gallery */
+.gallery{columns:4 260px;column-gap:10px}
+.gallery img{width:100%;margin-bottom:10px;border-radius:12px;cursor:zoom-in;break-inside:avoid;transition:transform .3s}
+.gallery img:hover{transform:scale(1.02)}
+/* lightbox */
+#lb{position:fixed;inset:0;background:rgba(5,15,12,.94);z-index:100;display:none;align-items:center;justify-content:center;flex-direction:column;padding:20px}
+#lb.on{display:flex}#lb img{max-height:82vh;max-width:95vw;border-radius:10px}
+#lb p{color:#cfe3de;font-size:.88rem;text-align:center;max-width:900px}
+#lb p a{color:#7fd6d3}
+#lb button{position:absolute;top:14px;right:18px;background:none;border:0;color:#fff;font-size:2.2rem;cursor:pointer}
+/* credits */
+.credits{font-size:.8rem;color:var(--muted);columns:2 380px;column-gap:30px}
+.credits li{margin-bottom:6px;break-inside:avoid}
+footer{background:#0b241b;color:#9fbab2;padding:40px 0;font-size:.9rem}
+footer b{color:#fff}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}
+@media(max-width:860px){.two{grid-template-columns:1fr}section{padding:56px 0}body{font-size:16px}}
+.round{border-radius:var(--r);box-shadow:var(--shadow)}
+.weather{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin:20px 0}
+.wx{background:linear-gradient(160deg,#fff,var(--ice));border-radius:14px;padding:14px;text-align:center;box-shadow:0 4px 14px rgba(0,0,0,.06)}
+.wx b{display:block;font-family:Fraunces,serif;font-size:1.5rem;color:var(--forest)}
+.wx small{color:var(--muted)}
+.alert{background:#fff4e5;border:1px solid #f5c98f;border-radius:14px;padding:14px 18px;margin:18px 0;color:#6b3d05}
+.round{width:100%;aspect-ratio:4/3;object-fit:cover}
+@media(max-width:700px){.hero:after{background:linear-gradient(180deg,rgba(0,0,0,.35),rgba(8,30,24,.55) 40%,rgba(8,30,24,.9))}.chip{font-size:.8rem;padding:5px 11px}.chips{gap:7px}.hero .wrap{padding-bottom:40px}.bingo{grid-template-columns:repeat(4,1fr)}.bingo button{font-size:.65rem}.bingo button span{font-size:1.3rem}}
+
+.totalcall{display:flex;gap:16px;align-items:center;margin-top:28px;background:linear-gradient(120deg,#fff3e2,#fde0c2);border:1px solid #f2c48d;border-radius:18px;padding:18px 22px;text-decoration:none;color:#5b3305;box-shadow:var(--shadow)}
+.totalcall span{font-size:2.2rem}.totalcall b{color:#5b3305}.totalcall u{color:var(--forest2);font-weight:700}
+.strip{display:grid;grid-template-columns:repeat(7,1fr);gap:8px;margin:12px 0}
+.strip div{background:#fff;border-radius:12px;padding:12px 10px;box-shadow:0 4px 14px rgba(0,0,0,.06);border-top:4px solid var(--glacier);text-align:center}
+.strip b{display:block;font-family:Fraunces,serif;color:var(--forest);font-size:1.15rem}.strip span{font-size:.85rem;color:var(--muted)}
+@media(max-width:860px){.strip{grid-template-columns:repeat(2,1fr)}.strip div:last-child{grid-column:1/3}}
+.legend{font-size:.9rem;color:var(--muted);margin:6px 0 30px}
+.tip.sample{background:#f3f0ff;border:1px dashed #a99be0;margin:10px 0}
+.base{display:grid;grid-template-columns:340px 1fr;gap:24px;background:var(--snow);border-radius:var(--r);padding:20px;margin-top:24px;box-shadow:var(--shadow)}
+.base>img{width:100%;height:100%;min-height:220px;object-fit:cover;border-radius:14px}
+.hotels{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:10px}
+.hotel{background:#fff;border-radius:14px;padding:16px 18px;box-shadow:0 4px 14px rgba(0,0,0,.06)}
+.hotel h4{margin:0;font-family:Fraunces,serif;font-size:1.15rem}.hotel h4 a{color:var(--forest);text-decoration:none}
+.hotel small{color:var(--muted)}.hotel .room{margin:.5em 0 .2em;font-weight:600}.hotel .est{margin:0;color:var(--glacier);font-weight:800;font-family:Fraunces,serif;font-size:1.2rem}
+.hotel .est i{font-family:Inter,sans-serif;font-size:.75rem;color:var(--muted);font-weight:600}
+.hotel ul{list-style:none;padding:0;margin:.6em 0 0;font-size:.9rem}.hotel li{padding:3px 0;border-bottom:1px dashed #e7efed}
+.yes{color:#18946b;font-weight:800}.no{color:#c0563f;font-weight:800}.hnote{font-size:.85rem;color:var(--forest2);margin:.6em 0 0;font-style:italic}
+@media(max-width:860px){.base{grid-template-columns:1fr}.base>img{min-height:180px;max-height:240px}.hotels{grid-template-columns:1fr}}
+.spots{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:10px;margin-top:14px}
+.spots div{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:12px;padding:12px 14px}
+.spots b{display:block;color:#fff}.spots span{font-size:.88rem;color:#bfe3dc}
+.teen{background:rgba(255,255,255,.08);border-radius:16px;padding:18px 20px;border:1px solid rgba(255,255,255,.18)}.teen p{color:#cfe3de;margin:0}
+section.dark .card h3{color:var(--forest)}
+.vid .yt{position:absolute;left:10px;bottom:10px;background:rgba(0,0,0,.7);color:#fff;font-size:.75rem;font-weight:700;padding:4px 9px;border-radius:99px;display:none}
+.filemode .vid .yt{display:block}
+</style>
+</head><body>
+<div class="draft">📝 DRAFT PLAN: possible trip, June 2027 · all prices are rough estimates, not live quotes · nothing is booked yet</div>
+<nav class="top"><div class="wrap">
+ <a class="brand" href="#top">🏔️ Rockies 2027</a>
+ <button class="menu-btn" aria-label="Menu" onclick="document.querySelector('.links').classList.toggle('open')">☰ Menu</button>
+ <div class="links">
+  <a href="#route">Route</a><a href="#days">Day by day</a><a href="#stay">Stay</a><a href="#love">Girls' picks</a><a href="#videos">Videos</a><a href="#food">Food</a><a href="#car">Car</a><a href="#weather">Weather</a><a href="#packing">Packing</a><a href="#safety">Safety</a><a href="#money">Money</a><a href="#passports">Passports</a><a href="#phone">Phones</a><a href="#faq">FAQ</a><a href="#photos">Photos</a>
+ </div>
+</div></nav>
+
+<header class="hero" id="top">
+ <div class="kb"><img class="bg s1" src="assets/moraine.jpg" alt="Turquoise Moraine Lake below the Valley of the Ten Peaks" data-k="moraine" loading="eager" fetchpriority="high" srcset="assets/moraine-800.jpg 800w, assets/moraine.jpg 1400w" sizes="100vw" width="1400" height="1000"><img class="bg s2" src="assets/peyto.jpg" alt="Peyto Lake" data-k="peyto" loading="eager" srcset="assets/peyto-800.jpg 800w, assets/peyto.jpg 1400w" sizes="100vw" width="1400" height="832"><img class="bg s3" src="assets/spirit-island.jpg" alt="Spirit Island on Maligne Lake" data-k="spirit-island" loading="eager" srcset="assets/spirit-island-800.jpg 800w, assets/spirit-island.jpg 1400w" sizes="100vw" width="1400" height="865"></div>
+ <div class="wrap">
+  <div class="eyebrow" style="color:#7fd6d3">Our family adventure · maybe!</div>
+  <h1>Canadian Rockies 2027</h1>
+  <p class="sub">Nine days of glacier-blue lakes, real glaciers you can walk on, hot springs, canoes, elk on the roadside and the darkest night skies we've ever seen. Banff → Lake Louise → Icefields Parkway → Jasper.</p>
+  <div class="chips"><span class="chip">📅 June 2027 (mid–late June)</span><span class="chip">👨‍👩‍👧‍👧 Jason, Akiko, Kate &amp; Emily</span><span class="chip">✈️ San Diego → Calgary</span><span class="chip">🚙 ~900 km road trip</span><span class="chip">🕐 Only 1 hr ahead of SD</span></div>
+  <a class="btn" href="#days">See the 9 days</a><a class="btn ghost" href="#love">What Kate &amp; Emily will love</a>
+  <div class="countdown" id="cd"></div>
+ </div>
+</header>
+
+<section id="glance"><div class="wrap">
+ <div class="eyebrow">Trip at a glance</div>
+ <h2>Four amazing national parks in one trip</h2>
+ <p class="lead">We fly into Calgary, pick up an SUV, and drive a big loop through Banff, Yoho and Jasper national parks. It's one of the most famous road trips in the world, and every stop is a postcard.</p>
+ <div class="glance">
+  <div class="stat"><b>9</b><span>days on the ground</span></div>
+  <div class="stat"><b>4</b><span>national parks (Banff, Yoho, Jasper + Icefields)</span></div>
+  <div class="stat"><b>~230 km</b><span>Icefields Parkway, "the world's most scenic drive"</span></div>
+  <div class="stat"><b>10,000</b><span>year-old glacier ice we can stand on</span></div>
+  <div class="stat"><b>60s–70s °F</b><span>June days (chilly mornings)</span></div>
+  <div class="stat"><b>~$7.5–11.6k</b><span>rough total for 4 (estimate)</span></div>
+ </div>
+
+ <a class="totalcall" href="#money"><span>💰</span><div><b>What's the total for our family?</b> Roughly <b>$7,500–11,600</b> for all 4 of us, for 9 days (estimate, not a quote). <u>See the budget table →</u></div></a>
+ <h3 style="margin-top:40px">🚁 From the air</h3>
+ <div class="grid g2" style="margin-top:10px">
+  <div><div class="vid" data-id="WteZwxsvICc"><img src="https://i.ytimg.com/vi/WteZwxsvICc/hqdefault.jpg" alt="Lake Louise and Moraine Lake aerial video thumbnail" loading="lazy"><div class="play"></div></div><div class="vcap"><b>Lake Louise &amp; Moraine Lake from above (4K)</b><small>Amazing Places on Our Planet · 5 min · aerial/drone footage</small></div></div>
+  <div><div class="vid" data-id="gprZN0vWQvc"><img src="https://i.ytimg.com/vi/gprZN0vWQvc/hqdefault.jpg" alt="Icefields Parkway aerial video thumbnail" loading="lazy"><div class="play"></div></div><div class="vcap"><b>Icefields Parkway: The World in 4K</b><small>Travel + Leisure · 2.5 min · aerial/drone footage</small></div></div>
+ </div>
+ <div class="grid g2" style="margin-top:40px;align-items:center">
+  <div><div class="vid" data-id="ThFCg0tBDck"><img src="https://i.ytimg.com/vi/ThFCg0tBDck/hqdefault.jpg" alt="Travel Alberta video thumbnail" loading="lazy" decoding="async"><div class="play"></div></div>
+  <div class="vcap"><b>"Remember to Breathe": Canada's Alberta</b><small>Travel Alberta (official) · 3 min · tap to play</small></div></div>
+  <div><h3>Why June?</h3><p>Mid-to-late June is the sweet spot: long daylight (sunset around 10 pm!), the lakes have thawed to their famous turquoise, the Moraine Lake road and shuttles are running, and it's before the peak July–August crowds. Early June can still have ice on the higher lakes and snow on trails, so we're aiming for <b>roughly June 14–30</b>.</p><p>Bonus: Calgary is on <b>Mountain Time, only 1 hour ahead of San Diego</b>, so no jet lag.</p></div>
+ </div>
+</div></section>
+
+<section id="route" class="alt"><div class="wrap">
+ <div class="eyebrow">The route</div>
+ <h2>Map &amp; drive times</h2>
+ <p class="lead">Solid line = the trip north. Dashed orange = the drive back to Calgary (or we fly home from Edmonton instead). Tap any pin to see what's there.</p>
+ <div id="map" role="img" aria-label="Map of the route from Calgary to Banff, Lake Louise, Icefields Parkway and Jasper"></div>
+ <div class="legs">
+  <div class="leg"><b>Calgary Airport (YYC) → Banff</b><span class="t">~1 h 30 min</span><br><small>~135 km · Trans-Canada Hwy 1</small></div>
+  <div class="leg"><b>Banff → Lake Louise</b><span class="t">~45–50 min</span><br><small>~57 km · Hwy 1 (or the slower, wildlife-rich Bow Valley Pkwy)</small></div>
+  <div class="leg"><b>Lake Louise → Moraine Lake</b><span class="t">~20 min</span><br><small>~14 km · Parks Canada shuttle only, no private cars</small></div>
+  <div class="leg"><b>Lake Louise → Emerald Lake (Yoho)</b><span class="t">~35–40 min</span><br><small>~36 km · over the BC border, Natural Bridge on the way</small></div>
+  <div class="leg"><b>Lake Louise → Columbia Icefield</b><span class="t">~1 h 45 min–2 h</span><br><small>~130 km · Bow Lake &amp; Peyto Lake on the way</small></div>
+  <div class="leg"><b>Columbia Icefield → Jasper</b><span class="t">~1 h 30 min</span><br><small>~103 km · Sunwapta &amp; Athabasca Falls on the way</small></div>
+  <div class="leg"><b>Jasper → Maligne Lake</b><span class="t">~1 h</span><br><small>~48 km · Medicine Lake &amp; moose territory</small></div>
+  <div class="leg opt"><b>Jasper → Calgary (YYC)</b><span class="t">~4.5–5 h</span><br><small>~410 km · back down the Icefields Pkwy</small></div>
+  <div class="leg opt"><b>Jasper → Edmonton (YEG) <i>(alternative)</i></b><span class="t">~4 h</span><br><small>~390 km · Hwy 16 east · fly home from YEG</small></div>
+ </div>
+ <p class="note">Drive times are estimates with no stops, from OpenStreetMap routing (OSRM) cross-checked against typical published times. In real life add plenty of time for photo stops, construction and "wildlife jams" (cars stopped for a bear). There is <b>no gas station for ~230 km</b> on the Icefields Parkway except Saskatchewan River Crossing (seasonal), so fill up in Lake Louise or Jasper. Map data © OpenStreetMap contributors.</p>
+</div></section>
+
+<section id="days"><div class="wrap">
+ <div class="eyebrow">The plan</div>
+ <h2>Day by day</h2>
+ <p class="lead">A relaxed pace with one "big thing" per day and lots of room for wandering. Base camps: <b>Banff</b> (3 nights) → <b>Lake Louise</b> (2 nights) → <b>Jasper</b> (3 nights), which is 8 nights and matches the "Where we'll stay" section.</p>
+ <h3 style="margin-top:26px">⏱️ A typical day</h3>
+ <div class="strip">
+  <div><b>7:00</b><span>☕ Wake + breakfast</span></div>
+  <div><b>8:00</b><span>🚙 Drive 20–60 min</span></div>
+  <div><b>9–12</b><span>⛰️ Main activity</span></div>
+  <div><b>12:30</b><span>🥪 Picnic or café lunch</span></div>
+  <div><b>2–5</b><span>😴 Downtime: pool, hot tub, nap, shops</span></div>
+  <div><b>6:30</b><span>🍽️ Dinner</span></div>
+  <div><b>~10 pm</b><span>🌅 Sunset (still light!)</span></div>
+ </div>
+ <div class="legend"><span class="tag warn">⏰ EARLY START</span> = up around 6–7 AM to beat the crowds &nbsp; <span class="tag">😴 SLEEP-IN</span> = no alarm, start ~9 AM</div>
+
+ <article class="day">
+  <div class="pics"><img src="assets/banff-ave.jpg" alt="Banff Avenue with Cascade Mountain" srcset="assets/banff-ave-800.jpg 800w, assets/banff-ave.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="907" data-k="banff-ave" loading="lazy" decoding="async"><img src="assets/banff-town.jpg" alt="Town of Banff below Cascade Mountain" srcset="assets/banff-town-800.jpg 800w, assets/banff-town.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="883" data-k="banff-town" loading="lazy" decoding="async"><img src="assets/elk.jpg" alt="Bull elk in Banff" srcset="assets/elk-800.jpg 800w, assets/elk.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="928" data-k="elk" loading="lazy" decoding="async"></div>
+  <div class="txt"><span class="daynum">DAY 1</span> <span class="tag sun">✈️ Travel day</span><h3>San Diego → Calgary → Banff</h3>
+   <div class="tip sample"><b>Sample flight shape (NOT a real booking or schedule):</b><br>🛫 ~8:00 AM leave San Diego → connect in Seattle, Denver or Vancouver → 🛬 ~3:00 PM arrive Calgary (Mountain Time, 1 hr ahead) → 🚙 pick up SUV ~4 PM → Banff by ~6 PM, in full daylight (sunset is ~10 PM).</div>
+   <ul><li>✈️ Fly SAN → Calgary (YYC). Usually <b>1 stop</b>, about <b>5–6 hours</b> door to gate.</li>
+   <li>🛂 <b>Entry:</b> US citizens need a <b>passport, but no visa and no eTA</b>. ArriveCAN's Advance Declaration is <b>optional</b> (can save time at the airport kiosks).</li>
+   <li>🧥 Keep a <b>fleece in the carry-on</b>: Calgary can be in the 50s °F when we land.</li>
+   <li>🚙 Pick up the rental SUV and drive ~1.5 hrs west; the mountains suddenly appear out of the prairie.</li>
+   <li>🛍️ Evening stroll on <b>Banff Avenue</b>: shops, ice cream, BeaverTails, mountains at the end of every street.</li>
+   <li>🦌 Keep eyes open for elk wandering right through town.</li></ul>
+   <div class="tip">🎫 Buy the <b>Parks Canada Discovery Pass</b> (family/group, about <b>CA$167.50</b> at 2026 prices; we'd estimated ~CA$151) online before we go or at the park gate. Kids 17 and under get in free anyway.</div>
+  </div>
+ </article>
+
+ <article class="day">
+  <div class="pics"><img src="assets/gondola.jpg" alt="Banff Gondola cabin" srcset="assets/gondola-800.jpg 800w, assets/gondola.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="934" data-k="gondola" loading="lazy" decoding="async"><img src="assets/hot-springs.jpg" alt="Banff Upper Hot Springs pool" srcset="assets/hot-springs-800.jpg 800w, assets/hot-springs.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="1050" data-k="hot-springs" loading="lazy" decoding="async"><img src="assets/vermilion.jpg" alt="Mount Rundle reflected in Vermilion Lakes" srcset="assets/vermilion-800.jpg 800w, assets/vermilion.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="934" data-k="vermilion" loading="lazy" decoding="async"></div>
+  <div class="txt"><span class="daynum">DAY 2</span> <span class="tag">😴 SLEEP-IN</span><h3>Banff: Gondola, hot springs &amp; sunset lakes</h3>
+   <ul><li>🚠 Ride the <b>Banff Gondola</b> up Sulphur Mountain (2,281 m / 7,486 ft). Walk the summit boardwalk to the old weather station, with views over six mountain ranges.</li>
+   <li>♨️ Soak at the <b>Banff Upper Hot Springs</b>, a natural hot pool with a mountain view (about CA$64 for a family, 2026 price).</li>
+   <li>🛶 Late afternoon: paddle a canoe on the Bow River / <b>Vermilion Lakes</b> (rentals from the Banff Canoe Club) or just drive Vermilion Lakes Rd for the famous Mount Rundle sunset reflection.</li></ul>
+   <div class="tip">💡 Book the gondola for early morning or evening. Midday lines are long.</div>
+  </div>
+ </article>
+
+ <article class="day">
+  <div class="pics"><img src="assets/johnston-catwalk.jpg" alt="Johnston Canyon catwalk" srcset="assets/johnston-catwalk-800.jpg 800w, assets/johnston-catwalk.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="934" data-k="johnston-catwalk" loading="lazy" decoding="async"><img src="assets/johnston-falls.jpg" alt="Johnston Canyon falls" srcset="assets/johnston-falls-800.jpg 800w, assets/johnston-falls.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="934" data-k="johnston-falls" loading="lazy" decoding="async"><img src="assets/bighorn.jpg" alt="Bighorn sheep" srcset="assets/bighorn-800.jpg 800w, assets/bighorn.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="788" data-k="bighorn" loading="lazy" decoding="async"></div>
+  <div class="txt"><span class="daynum">DAY 3</span> <span class="tag warn">⏰ EARLY START (~7 AM)</span><h3>Johnston Canyon &amp; wildlife drive</h3>
+   <ul><li>🥾 <b>Johnston Canyon</b>: steel catwalks bolted to the canyon walls, right above rushing water. Lower Falls is ~1.1 km (easy) and has a little cave you can walk through to get spray in your face; Upper Falls is ~2.6 km one-way.</li>
+   <li>🦌 Drive the <b>Bow Valley Parkway</b> slowly, one of the best places to spot elk, bighorn sheep, deer and sometimes bears.</li>
+   <li>🌊 Optional: Lake Minnewanka boat cruise or skip-stones at Two Jack Lake.</li></ul>
+   <div class="tip">⏰ Get to Johnston Canyon by ~8 am. By 10 the parking lot is full and the catwalks are crowded.</div>
+  </div>
+ </article>
+
+ <article class="day">
+  <div class="pics"><img src="assets/louise-boathouse.jpg" alt="Lake Louise boathouse and red canoes" srcset="assets/louise-boathouse-800.jpg 800w, assets/louise-boathouse.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="788" data-k="louise-boathouse" loading="lazy" decoding="async"><img src="assets/lake-agnes.jpg" alt="Lake Agnes Tea House" srcset="assets/lake-agnes-800.jpg 800w, assets/lake-agnes.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="1050" data-k="lake-agnes" loading="lazy" decoding="async"><img src="assets/louise-shore.jpg" alt="Lake Louise shoreline" srcset="assets/louise-shore-800.jpg 800w, assets/louise-shore.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="934" data-k="louise-shore" loading="lazy" decoding="async"></div>
+  <div class="txt"><span class="daynum">DAY 4</span> <span class="tag warn">⏰ EARLY START (~6:30–7 AM)</span><h3>Lake Louise &amp; the Tea House hike</h3>
+   <ul><li>🚙 Leave Banff by ~7 AM (45 min). Lake Louise's lakeshore lot fills very early, so park at the <b>Park &amp; Ride</b> and take the <b>Parks Canada shuttle</b>, or arrive before ~7:30 AM and pay to park (about CA$42/day).</li>
+   <li>🛶 Rent a red canoe on <b>Lake Louise</b> (pricey, well over CA$100 for a short paddle, estimate) or walk the lakeshore trail.</li>
+   <li>🫖 Hike to the <b>Lake Agnes Tea House</b>: ~3.5 km up (~400 m climb) to a log teahouse (first opened in 1901) beside a hidden lake. Tea, soup and biscuits at the top. Bring cash just in case.</li>
+   <li>🏨 Afternoon: check in at Lake Louise, hot tub, early night (tomorrow is the sunrise day).</li></ul>
+   <div class="tip warn">🎟️ <b>Shuttle seats go fast.</b> In 2026, 40% of Moraine/Lake Louise shuttle seats opened in spring (April 15) and the rest 2 days before each date. Plan to book the day they open.</div>
+  </div>
+ </article>
+
+ <article class="day">
+  <div class="pics"><img src="assets/moraine-sunrise.jpg" alt="Moraine Lake at sunrise" srcset="assets/moraine-sunrise-800.jpg 800w, assets/moraine-sunrise.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="747" data-k="moraine-sunrise" loading="lazy" decoding="async"><img src="assets/emerald.jpg" alt="Emerald Lake in Yoho National Park" srcset="assets/emerald-800.jpg 800w, assets/emerald.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="934" data-k="emerald" loading="lazy" decoding="async"><img src="assets/natural-bridge.jpg" alt="Natural Bridge on the Kicking Horse River" srcset="assets/natural-bridge-800.jpg 800w, assets/natural-bridge.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="1049" data-k="natural-bridge" loading="lazy" decoding="async"></div>
+  <div class="txt"><span class="daynum">DAY 5</span> <span class="tag warn">⏰ EARLIEST START (~6 AM)</span><h3>Moraine Lake sunrise, then Yoho</h3>
+   <ul><li>🌅 <b>Moraine Lake</b>: the "Valley of the Ten Peaks". Take an early shuttle (Parks Canada, a commercial shuttle, or the Lake Louise Inn's summer shuttle if we stay there), since <b>no private cars</b> are allowed on the Moraine Lake road. Climb the Rockpile for <i>the</i> photo.</li>
+   <li>☕ Back to Lake Louise village for a big breakfast (Laggan's), then a short rest.</li>
+   <li>💚 Afternoon in <b>Yoho National Park</b> (BC, still on Mountain Time): <b>Natural Bridge</b> and <b>Emerald Lake</b> (canoes, easy 5 km loop).</li>
+   <li>💦 Optional: Takakkaw Falls. The road has tight switchbacks, so skip it if anyone gets carsick.</li></ul>
+  </div>
+ </article>
+
+ <article class="day">
+  <div class="pics"><img src="assets/peyto.jpg" alt="Peyto Lake from the viewpoint" srcset="assets/peyto-800.jpg 800w, assets/peyto.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="832" data-k="peyto" loading="lazy" decoding="async"><img src="assets/ice-explorer.jpg" alt="Ice Explorer vehicles on the Athabasca Glacier" srcset="assets/ice-explorer-800.jpg 800w, assets/ice-explorer.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="1000" data-k="ice-explorer" loading="lazy" decoding="async"><img src="assets/skywalk.jpg" alt="Columbia Icefield Skywalk" srcset="assets/skywalk-800.jpg 800w, assets/skywalk.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="934" data-k="skywalk" loading="lazy" decoding="async"></div>
+  <div class="txt"><span class="daynum">DAY 6</span> <span class="tag warn">⏰ EARLY START (~7 AM) · long day</span><h3>The Icefields Parkway (big day!)</h3>
+   <ul><li>🏞️ <b>Bow Lake</b>: mirror reflections. Then <b>Peyto Lake</b>, the wolf-head-shaped turquoise lake (short walk to the viewpoint).</li>
+   <li>🧊 <b>Columbia Icefield Adventure</b>: ride a giant six-wheeled <b>Ice Explorer</b> onto the <b>Athabasca Glacier</b>, walk on 10,000-year-old ice, and fill a bottle with glacier water. Then the <b>Skywalk</b>, a glass-floored walkway 280 m above the valley. (~2.5–3 hr tour; 2027 dates May 1–Oct 11, weather dependent.)</li>
+   <li>💦 <b>Athabasca Falls</b> on the way into Jasper.</li></ul>
+   <div class="tip"><b>Planned stops (every ~30–45 min, drive times approximate):</b><br>
+   Lake Louise → <b>Bow Lake</b> (~30 min) → <b>Peyto Lake</b> (~10 min) → <b>Mistaya Canyon / Saskatchewan Crossing</b> (~30 min: gas, restrooms, snacks) → <b>Weeping Wall / Big Bend viewpoint</b> (~30 min) → <b>Columbia Icefield Discovery Centre</b> (~15 min: tour, lunch, real restrooms) → <b>Sunwapta Falls</b> (~40 min) → <b>Athabasca Falls</b> (~20 min) → <b>Jasper</b> (~25 min). About 3.5 hrs of driving spread over a full day.</div>
+   <div class="tip">⛽ Fill the tank in Lake Louise. Saskatchewan Crossing (The Crossing Resort) is the <b>only fuel stop on the Parkway</b>, seasonal (about May–Oct) and pricey, so call ahead. Download offline maps: most of the Parkway has <b>no cell service</b>.</div>
+  </div>
+ </article>
+
+ <article class="day">
+  <div class="pics"><img src="assets/spirit-island.jpg" alt="Spirit Island on Maligne Lake" srcset="assets/spirit-island-800.jpg 800w, assets/spirit-island.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="865" data-k="spirit-island" loading="lazy" decoding="async"><img src="assets/spirit-island-2.jpg" alt="Spirit Island" srcset="assets/spirit-island-2-800.jpg 800w, assets/spirit-island-2.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="934" data-k="spirit-island-2" loading="lazy" decoding="async"><img src="assets/moose.jpg" alt="Moose mother and calf" srcset="assets/moose-800.jpg 800w, assets/moose.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="1099" data-k="moose" loading="lazy" decoding="async"></div>
+  <div class="txt"><span class="daynum">DAY 7</span> <span class="tag">Moderate start (~8 AM)</span><h3>Jasper: Maligne Lake &amp; Spirit Island</h3>
+   <ul><li>🚤 <b>Maligne Lake Cruise</b> (~1.5 hrs) 14 km down the lake to <b>Spirit Island</b>, one of the most photographed places in Canada. You can only see it by boat.</li>
+   <li>🫎 Maligne Lake Road is <b>moose, bear and caribou</b> country. Drive slowly at dawn and dusk. Stop at Medicine Lake (it "disappears" each fall).</li>
+   <li>✨ After dark: stargazing. Jasper is one of the world's largest <b>Dark Sky Preserves</b>.</li></ul>
+   <div class="tip warn">⚠️ <b>Maligne Canyon is closed</b> through the 2026 season because of damage from the 2024 Jasper wildfire, with no reopening date yet. If it's still closed in 2027 we swap in Athabasca Falls / Sunwapta Falls or the Moose Lake Loop.</div>
+  </div>
+ </article>
+
+ <article class="day">
+  <div class="pics"><img src="assets/skytram.jpg" alt="Jasper SkyTram cabin" srcset="assets/skytram-800.jpg 800w, assets/skytram.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="1050" data-k="skytram" loading="lazy" decoding="async"><img src="assets/black-bear.jpg" alt="Black bear in Jasper National Park" srcset="assets/black-bear-800.jpg 800w, assets/black-bear.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="934" data-k="black-bear" loading="lazy" decoding="async"><img src="assets/night-sky.jpg" alt="Starry night sky over Banff" srcset="assets/night-sky-800.jpg 800w, assets/night-sky.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="934" data-k="night-sky" loading="lazy" decoding="async"></div>
+  <div class="txt"><span class="daynum">DAY 8</span> <span class="tag">😴 SLEEP-IN</span><h3>Jasper SkyTram, lakes &amp; town</h3>
+   <ul><li>🚡 <b>Jasper SkyTram</b>: a 7-minute ride up Whistlers Mountain to 2,263 m (7,425 ft). Hike to the summit if there's no snow; it's about 12 °C (20 °F) colder up top than in town!</li>
+   <li>🚲 Afternoon: rent bikes or paddleboards at <b>Pyramid Lake</b> / Patricia Lake, or float the Athabasca River.</li>
+   <li>🍕 Dinner in town, pick up souvenirs, then one last stargazing session.</li></ul>
+   <div class="tip">🔥 Jasper is still rebuilding after the July 2024 wildfire. The town, hotels and nearly all trails are open, but lodging is tighter, so book early.</div>
+  </div>
+ </article>
+
+ <article class="day">
+  <div class="pics"><img src="assets/icefields-road.jpg" alt="Icefields Parkway winding through the valley" srcset="assets/icefields-road-800.jpg 800w, assets/icefields-road.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="928" data-k="icefields-road" loading="lazy" decoding="async"><img src="assets/bow-lake.jpg" alt="Bow Lake reflection" srcset="assets/bow-lake-800.jpg 800w, assets/bow-lake.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="934" data-k="bow-lake" loading="lazy" decoding="async"><img src="assets/athabasca-falls.jpg" alt="Athabasca Falls" srcset="assets/athabasca-falls-800.jpg 800w, assets/athabasca-falls.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="1050" data-k="athabasca-falls" loading="lazy" decoding="async"></div>
+  <div class="txt"><span class="daynum">DAY 9</span> <span class="tag sun">✈️ Travel day</span><h3>Heading home</h3>
+   <ul><li><b>Option A</b>: drive back to Calgary (~4.5–5 hrs) down the Icefields Parkway, a second chance at every viewpoint, then fly YYC → SAN.</li>
+   <li><b>Option B</b>: drive east to Edmonton (~4 hrs) and fly YEG → SAN. Less scenic, but sometimes cheaper, and it can save a long day. (One-way car rentals often have a drop fee.)</li></ul>
+   <div class="tip">✈️ Book an afternoon/evening flight so we're not racing the clock.</div>
+  </div>
+ </article>
+</div></section>
+
+
+<section id="stay" class="alt"><div class="wrap">
+ <div class="eyebrow">Where we'll stay</div>
+ <h2>Example lodging (not booked)</h2>
+ <p class="lead">Real hotels that are open and fit 4 of us in one room or suite. These are <b>examples to compare</b>, not reservations. Nightly prices are <b>rough June estimates in USD</b>, not quotes. Amenities were checked on each hotel's official site in Oct 2026. The plan stays <b>Banff 3 nights → Lake Louise 2 → Jasper 3</b> (8 nights), the same as the itinerary.</p>
+ <div class="base"><img src="assets/stay-banff.jpg" alt="Banff Avenue, where both Banff examples are located" srcset="assets/stay-banff-800.jpg 800w, assets/stay-banff.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="831" data-k="stay-banff" loading="lazy" decoding="async">
+  <div><h3>🏔️ Banff · nights 1–3</h3><div class="hotels"><div class="hotel"><h4><a href="https://www.banffaspenlodge.com/" target="_blank" rel="noopener">Banff Aspen Lodge</a></h4><small>On Banff Ave, short walk to downtown</small>
+     <p class="room">🛏️ Premium 2 Queen room (sleeps 4)</p><p class="est">~$330–480 <i>per night, rough estimate</i></p>
+     <ul><li><span class="no">✘</span> No kitchenette (fridge, Nespresso &amp; kettle only)</li><li><span class="yes">✔</span> Hot tubs: 2 outdoor (one becomes a cool pool in summer), steam room, sauna</li><li><span class="yes">✔</span> Laundry: coin, on site</li><li><span class="yes">✔</span> Breakfast: hot buffet INCLUDED</li><li><span class="yes">✔</span> Wi-Fi: free</li></ul><p class="hnote">Best value pick because breakfast is included.</p></div><div class="hotel"><h4><a href="https://foxhotelandsuites.com/" target="_blank" rel="noopener">Fox Hotel &amp; Suites</a></h4><small>461 Banff Ave</small>
+     <p class="room">🛏️ Superior 1-Bedroom Suite: 2 doubles + double sofa bed (or a 2-Bedroom Suite)</p><p class="est">~$330–500 <i>per night, rough estimate</i></p>
+     <ul><li><span class="yes">✔</span> Kitchenette: Kitchen nook (small fridge, sink, microwave, toaster)</li><li><span class="yes">✔</span> Pool: indoor "cave" hot pool inspired by Cave and Basin, plus sauna</li><li><span class="yes">✔</span> Laundry: coin, on site</li><li><span class="yes">✔</span> Breakfast: on-site restaurant (Chili&#39;s), paid</li><li><span class="yes">✔</span> Wi-Fi: free</li></ul><p class="hnote">Two rooms of space; free Roam bus passes.</p></div></div></div></div>
+ <div class="base"><img src="assets/stay-louise.jpg" alt="Samson Mall in Lake Louise village" srcset="assets/stay-louise-800.jpg 800w, assets/stay-louise.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="875" data-k="stay-louise" loading="lazy" decoding="async">
+  <div><h3>🛶 Lake Louise · nights 4–5</h3><div class="hotels"><div class="hotel"><h4><a href="https://www.lakelouiseinn.com/" target="_blank" rel="noopener">Lake Louise Inn</a></h4><small>Village Rd, near Samson Mall</small>
+     <p class="room">🛏️ Deluxe Two Queen, or a 1-Bedroom Suite with kitchenette</p><p class="est">~$260–450 <i>per night, rough estimate</i></p>
+     <ul><li><span class="yes">✔</span> Kitchenette: In suites/condos (full fridge, stove, dishwasher)</li><li><span class="yes">✔</span> Pool: heated indoor pool + 3 hot tubs</li><li><span class="yes">✔</span> Laundry: coin, on site</li><li><span class="yes">✔</span> Breakfast: on-site restaurants, paid</li><li><span class="yes">✔</span> Wi-Fi: free (part of the ~CA$14/night resort fee)</li></ul><p class="hnote">Runs its own summer Moraine &amp; Lake Louise shuttle for guests.</p></div><div class="hotel"><h4><a href="https://mountaineerlodge.com/" target="_blank" rel="noopener">Mountaineer Lodge</a></h4><small>Village Rd, Lake Louise</small>
+     <p class="room">🛏️ Two Queen room (sleeps 4)</p><p class="est">~$230–380 <i>per night, rough estimate</i></p>
+     <ul><li><span class="no">✘</span> No kitchenette (microwave + mini-fridge)</li><li><span class="yes">✔</span> Hot tub: indoor + steam room</li><li><span class="yes">✔</span> Laundry: coin, on site</li><li><span class="yes">✔</span> Breakfast: hot buffet, CA$25/person (2026)</li><li><span class="yes">✔</span> Wi-Fi: free fibre (fast!)</li></ul><p class="hnote">No elevator; Timber Building rooms have no A/C.</p></div></div></div></div>
+ <div class="base"><img src="assets/stay-jasper.jpg" alt="Connaught Drive in the town of Jasper" srcset="assets/stay-jasper-800.jpg 800w, assets/stay-jasper.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="737" data-k="stay-jasper" loading="lazy" decoding="async">
+  <div><h3>🌲 Jasper · nights 6–8</h3>
+   <div class="alert" style="margin-top:6px">⚠️ <b>Jasper is tight.</b> The 2024 wildfire destroyed several hotels (some are still rebuilding), so there are fewer rooms than before. <b>Book Jasper first, by about December 2026</b>, and pick a rate with free cancellation.</div>
+   <div class="hotels"><div class="hotel"><h4><a href="https://jasperinn.com/" target="_blank" rel="noopener">Jasper Inn &amp; Suites</a></h4><small>98 Geikie St, quiet edge of town</small>
+     <p class="room">🛏️ Suite with kitchenette (2 queens or a separate bedroom)</p><p class="est">~$280–450 <i>per night, rough estimate</i></p>
+     <ul><li><span class="yes">✔</span> Kitchenette: In suites (stove, sink, fridge, microwave, dishes)</li><li><span class="yes">✔</span> Pool: indoor pool + hot tub, sauna, steam room</li><li><span class="yes">✔</span> Laundry: coin, on site</li><li><span class="yes">✔</span> Breakfast: on-site INN Grill, paid</li><li><span class="yes">✔</span> Wi-Fi: free</li></ul></div><div class="hotel"><h4><a href="https://www.banffjaspercollection.com/hotels/marmot-lodge/" target="_blank" rel="noopener">Marmot Lodge</a></h4><small>Connaught Dr, Jasper</small>
+     <p class="room">🛏️ Room with 2 queens, or a Kitchen Suite</p><p class="est">~$260–420 <i>per night, rough estimate</i></p>
+     <ul><li><span class="yes">✔</span> Kitchenette: In Kitchen Suites (full kitchen)</li><li><span class="yes">✔</span> Pool: indoor pool, indoor + outdoor hot tubs, sauna</li><li><span class="yes">✔</span> Laundry: self-serve, paid</li><li><span class="yes">✔</span> Breakfast: on-site restaurant + Starbucks, paid</li><li><span class="yes">✔</span> Wi-Fi: free</li></ul><p class="hnote">Kids stay free.</p></div></div></div></div>
+ <p class="note">Lodging total for 8 nights ≈ <b>$2,400–3,750</b> (estimate). Photos show the area, not the hotels (no freely licensed hotel photos were available), so check each hotel's own photos before booking.</p>
+</div></section>
+
+<section id="love" class="dark"><div class="wrap">
+ <div class="eyebrow" style="color:#7fd6d3">For Kate &amp; Emily</div>
+ <h2>What the girls will love 💙</h2>
+ <p class="lead">The photo spots, the adventures and the snacks. This trip is basically made for your camera roll.</p>
+ <div class="grid g3" style="margin-top:26px">
+  <div class="love"><img src="assets/moraine-reflect.jpg" alt="Moraine Lake" srcset="assets/moraine-reflect-800.jpg 800w, assets/moraine-reflect.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="1050" data-k="moraine-reflect" loading="lazy" decoding="async"><div><span class="emoji">📸</span><h3>The most famous photo in Canada</h3><p>Moraine Lake from the Rockpile at sunrise. Unreal turquoise, zero filter needed.</p></div></div>
+  <div class="love"><img src="assets/athabasca.jpg" alt="Athabasca Glacier" srcset="assets/athabasca-800.jpg 800w, assets/athabasca.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="960" data-k="athabasca" loading="lazy" decoding="async"><div><span class="emoji">🧊</span><h3>Walk on a real glacier</h3><p>Ride a monster-truck bus onto the Athabasca Glacier and drink glacier water.</p></div></div>
+  <div class="love"><img src="assets/skywalk.jpg" alt="Skywalk" srcset="assets/skywalk-800.jpg 800w, assets/skywalk.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="934" data-k="skywalk" loading="lazy" decoding="async"><div><span class="emoji">😱</span><h3>Glass floor in the sky</h3><p>The Skywalk: stand on glass 280 m (900+ ft) above the valley.</p></div></div>
+  <div class="love"><img src="assets/louise-shore.jpg" alt="Lake Louise canoes" srcset="assets/louise-shore-800.jpg 800w, assets/louise-shore.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="934" data-k="louise-shore" loading="lazy" decoding="async"><div><span class="emoji">🛶</span><h3>Red canoes on blue water</h3><p>Paddle Lake Louise or Emerald Lake. Best group photo of the trip.</p></div></div>
+  <div class="love"><img src="assets/hot-springs.jpg" alt="Hot springs" srcset="assets/hot-springs-800.jpg 800w, assets/hot-springs.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="1050" data-k="hot-springs" loading="lazy" decoding="async"><div><span class="emoji">♨️</span><h3>Hot springs with a view</h3><p>Soak in a 39 °C mountain pool, even when it's chilly out.</p></div></div>
+  <div class="love"><img src="assets/johnston-catwalk.jpg" alt="Catwalk" srcset="assets/johnston-catwalk-800.jpg 800w, assets/johnston-catwalk.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="934" data-k="johnston-catwalk" loading="lazy" decoding="async"><div><span class="emoji">🌊</span><h3>Canyon catwalks &amp; a waterfall cave</h3><p>Johnston Canyon's walkways hang off the cliff. The cave at Lower Falls gets you misty.</p></div></div>
+  <div class="love"><img src="assets/gondola.jpg" alt="Gondola" srcset="assets/gondola-800.jpg 800w, assets/gondola.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="934" data-k="gondola" loading="lazy" decoding="async"><div><span class="emoji">🚠</span><h3>Gondola to the clouds</h3><p>Banff Gondola and Jasper SkyTram, with mountaintop boardwalks and snacks.</p></div></div>
+  <div class="love"><img src="assets/night-sky.jpg" alt="Stars" srcset="assets/night-sky-800.jpg 800w, assets/night-sky.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="934" data-k="night-sky" loading="lazy" decoding="async"><div><span class="emoji">✨</span><h3>So. Many. Stars.</h3><p>Jasper is a Dark Sky Preserve. See the Milky Way with your own eyes.</p></div></div>
+  <div class="love"><img src="assets/beavertails.jpg" alt="Fried dough pastries" srcset="assets/beavertails-800.jpg 800w, assets/beavertails.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="934" data-k="beavertails" loading="lazy" decoding="async"><div><span class="emoji">🍩</span><h3>BeaverTails &amp; poutine</h3><p>Canada's famous stretched-dough pastry with cinnamon sugar or Nutella, plus fries with gravy and cheese curds.</p></div></div>
+ </div>
+
+ <h3 style="margin-top:50px">📸 Best photo spots &amp; when to go</h3>
+ <div class="spots">
+  <div><b>Moraine Lake Rockpile</b><span>🌅 Sunrise (peaks glow pink)</span></div>
+  <div><b>Lake Louise boathouse</b><span>🌄 Early morning, glassy water</span></div>
+  <div><b>Bow Lake</b><span>🌄 Early morning reflections</span></div>
+  <div><b>Peyto Lake viewpoint</b><span>☀️ Late morning–midday (brightest blue)</span></div>
+  <div><b>Johnston Canyon catwalk</b><span>🕗 Before 9 AM (no crowds)</span></div>
+  <div><b>Skywalk glass floor</b><span>☀️ Midday, any weather</span></div>
+  <div><b>Spirit Island</b><span>🚤 On the cruise; morning is calmest</span></div>
+  <div><b>Vermilion Lakes + Mt Rundle</b><span>🌇 Sunset</span></div>
+  <div><b>Banff Ave + Cascade Mtn</b><span>🌇 Golden hour</span></div>
+  <div><b>Pyramid Lake island bridge</b><span>✨ Sunset → stars</span></div>
+ </div>
+ <div class="grid g3" style="margin-top:30px">
+  <div class="teen"><h3>📶 Wi-Fi</h3><p>Every example hotel has free Wi-Fi (Mountaineer Lodge has fast fibre). There's no signal on most of the Icefields Parkway, so download shows, music and maps the night before.</p></div>
+  <div class="teen"><h3>🔌 Charging in the car</h3><p>We'll bring a <b>multi-port USB-C car charger</b> (fast-charge/PD), cables for everyone and a power bank or two. Rentals often have only one or two USB ports.</p></div>
+  <div class="teen"><h3>🚻 Bathrooms</h3><p>Trails don't have toilets, so go at the trailhead (Johnston Canyon, Lake Louise, Moraine, Peyto, Bow Lake: mostly basic/pit toilets). Real restrooms are at Saskatchewan Crossing and the Icefield Discovery Centre; the tea house has outhouses.</p></div>
+ </div>
+ <h3 style="margin-top:50px">☔ Rainy-day Plan B</h3>
+ <div class="grid g3" style="margin-top:14px">
+  <div class="card"><img src="assets/cave-basin.jpg" alt="Cave and Basin National Historic Site" srcset="assets/cave-basin-800.jpg 800w, assets/cave-basin.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="934" data-k="cave-basin" loading="lazy" decoding="async"><div class="pad"><h3>Banff</h3>
+   <p>🏛️ <b>Cave and Basin</b>: the cave where Canada's parks began (summer: daily 9:30–5).</p>
+   <p>🦌 <b>Banff Park Museum</b>: old-school natural history museum (summer: Thu–Mon 9:30–5).</p>
+   <p>🎨 <b>Whyte Museum</b>: mountain art &amp; history (daily 10–5).</p>
+   <p>♨️ <b>Upper Hot Springs</b>: soaking in the rain is the best!</p>
+   <p>🛍️ Shopping on Banff Ave + hotel hot pools.</p></div></div>
+  <div class="card"><img src="assets/louise-boathouse.jpg" alt="Lake Louise in cloudy weather" srcset="assets/louise-boathouse-800.jpg 800w, assets/louise-boathouse.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="788" data-k="louise-boathouse" loading="lazy" decoding="async"><div class="pad"><h3>Lake Louise</h3>
+   <p>🏊 Lake Louise Inn pool &amp; hot tubs (non-guests can pay to swim 10–4).</p>
+   <p>🫖 Afternoon tea at the Fairmont Chateau Lake Louise (reserve).</p>
+   <p>🥐 Laggan's bakery &amp; Samson Mall shops, then a movie night in the room.</p>
+   <p>🌊 Waterfalls are bigger in the rain, and Johnston Canyon is 40 min away.</p></div></div>
+  <div class="card"><img src="assets/stay-jasper.jpg" alt="Jasper town" srcset="assets/stay-jasper-800.jpg 800w, assets/stay-jasper.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="737" data-k="stay-jasper" loading="lazy" decoding="async"><div class="pad"><h3>Jasper</h3>
+   <p>🔭 <b>Jasper Planetarium</b> (open daily May–Oct).</p>
+   <p>🏛️ <b>Jasper-Yellowhead Museum</b> (summer: daily 10–5).</p>
+   <p>♨️ <b>Miette Hot Springs</b>, ~1 hr away (seasonal: the 2026 season ran May 15–Oct 12).</p>
+   <p>🏊 Hotel pools + Bear's Paw cinnamon buns.</p></div></div>
+ </div>
+ <p class="note" style="color:#a9c7bf">Opening hours checked Oct 2026 on official sites; 2027 hours may differ.</p>
+ <h3 style="margin-top:50px">🦌 Wildlife Bingo: tap what you spot!</h3>
+ <p style="color:#bcd6cf">Saved on your phone. Whoever fills a row first picks dinner.</p>
+ <div class="bingo" id="bingo"></div>
+</div></section>
+
+<section id="videos"><div class="wrap">
+ <div class="eyebrow">Get hyped</div>
+ <h2>Watch before we go</h2>
+ <p class="lead">Official tourism videos plus a few great travel vlogs. Tap a video to play it (loads from YouTube in privacy-enhanced mode).</p>
+ <div class="grid g3" style="margin-top:24px">
+  <div><div class="vid" data-id="_3sHUqBsiZ8"><img src="https://i.ytimg.com/vi/_3sHUqBsiZ8/hqdefault.jpg" alt="" loading="lazy" decoding="async"><div class="play"></div></div><div class="vcap"><b>Banff &amp; Lake Louise: Summer Travel Guide</b><small>Imagiscope Travel &amp; Tech · 10 min</small></div></div>
+  <div><div class="vid" data-id="XtsBPZHwWRA"><img src="https://i.ytimg.com/vi/XtsBPZHwWRA/hqdefault.jpg" alt="" loading="lazy" decoding="async"><div class="play"></div></div><div class="vcap"><b>Johnston Canyon: Lower &amp; Upper Falls (4K)</b><small>Haswell Travelled · 12 min</small></div></div>
+  <div><div class="vid" data-id="fY9OojMyRrE"><img src="https://i.ytimg.com/vi/fY9OojMyRrE/hqdefault.jpg" alt="" loading="lazy" decoding="async"><div class="play"></div></div><div class="vcap"><b>Canada's Best Road Trip: Icefields Parkway</b><small>Aly Smalls · 10 min</small></div></div>
+  <div><div class="vid" data-id="hRA1NGXKN2k"><img src="https://i.ytimg.com/vi/hRA1NGXKN2k/hqdefault.jpg" alt="" loading="lazy" decoding="async"><div class="play"></div></div><div class="vcap"><b>The Adventure of a Lifetime: Columbia Icefield</b><small>Pursuit (official operator) · 1 min</small></div></div>
+  <div><div class="vid" data-id="x0VlECGq66o"><img src="https://i.ytimg.com/vi/x0VlECGq66o/hqdefault.jpg" alt="" loading="lazy" decoding="async"><div class="play"></div></div><div class="vcap"><b>Maligne Lake &amp; Spirit Island Cruise (4K)</b><small>Haswell Travelled · 11 min</small></div></div>
+  <div><div class="vid" data-id="RuCf2Qx0qTQ"><img src="https://i.ytimg.com/vi/RuCf2Qx0qTQ/hqdefault.jpg" alt="" loading="lazy" decoding="async"><div class="play"></div></div><div class="vcap"><b>You've Never Seen the Rockies Like This Before</b><small>Tourism Jasper (official) · 1 min</small></div></div>
+  <div><div class="vid" data-id="qY3i7KggWoQ"><img src="https://i.ytimg.com/vi/qY3i7KggWoQ/hqdefault.jpg" alt="" loading="lazy" decoding="async"><div class="play"></div></div><div class="vcap"><b>Jasper Dark Sky: Pyramid Lake</b><small>Tourism Jasper (official) · 30 sec</small></div></div>
+ </div>
+</div></section>
+
+<section id="food" class="alt"><div class="wrap">
+ <div class="eyebrow">Eat</div>
+ <h2>Food we have to try</h2>
+ <div class="two" style="margin-top:20px">
+  <div>
+   <h3>🇨🇦 Canadian classics</h3>
+   <div class="grid" style="gap:10px">
+    <div class="food"><span class="ic">🍟</span><div><b>Poutine</b><p>Fries + squeaky cheese curds + hot gravy. Found everywhere.</p></div></div>
+    <div class="food"><span class="ic">🥐</span><div><b>BeaverTails</b><p>Hand-stretched fried dough, topped with cinnamon sugar, Nutella, or "Killaloe Sunrise" (cinnamon sugar + lemon).</p></div></div>
+    <div class="food"><span class="ic">🍫</span><div><b>Nanaimo bars &amp; butter tarts</b><p>Canada's famous no-bake bar and gooey mini tarts. Any bakery.</p></div></div>
+    <div class="food"><span class="ic">🍩</span><div><b>Tim Hortons Timbits</b><p>Donut holes and an "Iced Capp", a road-trip must.</p></div></div>
+    <div class="food"><span class="ic">🥩</span><div><b>Alberta beef, bison &amp; Saskatoon berry pie</b><p>Alberta's local specialties.</p></div></div>
+    <div class="food"><span class="ic">🥔</span><div><b>Ketchup chips &amp; all-dressed chips</b><p>Grocery-store souvenir. Bring some home!</p></div></div>
+   </div>
+  </div>
+  <img class="round" src="assets/poutine.jpg" alt="Plate of poutine" srcset="assets/poutine-800.jpg 800w, assets/poutine.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="788" data-k="poutine" loading="lazy" decoding="async">
+ </div>
+ <div class="grid g3" style="margin-top:36px">
+  <div class="card"><img src="assets/banff-ave-2.jpg" alt="Banff Avenue" srcset="assets/banff-ave-2-800.jpg 800w, assets/banff-ave-2.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="1050" data-k="banff-ave-2" loading="lazy" decoding="async"><div class="pad"><h3>Banff</h3>
+   <p>🍦 <b>COWS Ice Cream</b>: 138 Banff Ave, legendary.</p>
+   <p>🥐 <b>BeaverTails</b>: 120 &amp; 201 Banff Ave.</p>
+   <p>🫕 <b>The Grizzly House</b>: 207 Banff Ave, a quirky fondue night (cheese, meat &amp; chocolate). A fun family dinner.</p>
+   <p>🔥 <b>Park Distillery</b>: 219 Banff Ave, campfire-style food and great burgers.</p>
+   <p>🍞 <b>Wild Flour Bakery</b> on Bear St, for breakfast and picnic sandwiches.</p></div></div>
+  <div class="card"><img src="assets/lake-agnes.jpg" alt="Lake Agnes Tea House" srcset="assets/lake-agnes-800.jpg 800w, assets/lake-agnes.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="1050" data-k="lake-agnes" loading="lazy" decoding="async"><div class="pad"><h3>Lake Louise</h3>
+   <p>🫖 <b>Lake Agnes Tea House</b>: hike-in tea, soup &amp; scones at 2,135 m.</p>
+   <p>🥧 <b>Laggan's Mountain Bakery</b> (Samson Mall): famous for its baked goods, a perfect pre-shuttle breakfast.</p>
+   <p>☕ <b>Trailhead Café</b> (Samson Mall): wraps, sandwiches, coffee to go.</p>
+   <p>👑 Splurge idea: afternoon tea at the <b>Fairmont Chateau Lake Louise</b> (reserve ahead).</p></div></div>
+  <div class="card"><img src="assets/skytram.jpg" alt="Jasper SkyTram" srcset="assets/skytram-800.jpg 800w, assets/skytram.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="1050" data-k="skytram" loading="lazy" decoding="async"><div class="pad"><h3>Jasper</h3>
+   <p>🥨 <b>Bear's Paw Bakery</b>: 4 Pyramid Lake Rd, the go-to for cinnamon buns and the "bear paw" pastry.</p>
+   <p>🍺 <b>Jasper Brewing Co.</b>: 624 Connaught Dr, pub food, reopened in 2025 after the wildfire.</p>
+   <p>🍝 <b>Papa George's</b> at the Astoria Hotel: a classic family dinner spot.</p>
+   <p>🏔️ <b>Summit Café</b> at the top of the SkyTram: lunch above the clouds.</p></div></div>
+ </div>
+ <div class="grid g2" style="margin-top:30px">
+  <div class="card"><div class="pad"><h3>🍜 Japanese &amp; Asian food</h3>
+   <p><b>Banff</b>: 🍣 <b>Sushi House Banff</b> (conveyor-belt sushi train, 304 Caribou St) · 🏮 <b>Shoku Izakaya</b> (ramen, udon, sushi, same address, walk-in) · 🍜 <b>Ramen Arashi</b> (Sundance Mall, 215 Banff Ave) · 🌞 <b>Hello Sunshine</b> (sushi &amp; ramen, dinner from 3 pm).</p>
+   <p><b>Jasper</b>: 🍣 <b>Oka Sushi</b> (small sushi bar at Fairmont Jasper Park Lodge, reserve) · 🍱 <b>One Sushi</b> (622 Patricia St) · 🧋 <b>Wishing Tea</b> (ramen + bubble tea, 621 Patricia St) · 🥢 <b>Kimchi House</b> (Korean, 407 Patricia St).</p>
+   <p style="font-size:.85rem">The Jasper listings come from directories and may change; confirm before going.</p></div></div>
+  <div class="card"><div class="pad"><h3>🛒 Grocery stores (snacks, breakfast, picnics)</h3>
+   <p><b>Banff</b>: <b>IGA</b> (318 Marten St, daily ~7 am–10 pm) and <b>Nesters Market</b> (122 Bear St, daily ~8 am–9 pm).</p>
+   <p><b>Lake Louise</b>: just a small market in Samson Mall, so <b>stock up in Banff</b>.</p>
+   <p><b>Jasper</b>: <b>Robinsons Foods</b> (218 Connaught Dr) and <b>Super A Foods</b> (601 Patricia St), both operating in town since the fire.</p>
+   <p style="font-size:.85rem">"Wild Earth" in Jasper couldn't be confirmed as a grocery store.</p></div></div>
+ </div>
+ <p class="note">Places verified to exist as of Oct 2026. Hours and menus change, so re-check before we go. Jasper businesses are still recovering from the 2024 wildfire.</p>
+</div></section>
+
+
+<section id="car"><div class="wrap">
+ <div class="eyebrow">Car time</div>
+ <h2>Road-trip survival</h2>
+ <div class="grid g3" style="margin-top:20px">
+  <div class="card"><div class="pad"><h3>🤢 Motion sickness</h3><p>Most roads are gentle, but Maligne Lake Rd, the Big Bend hill and the Yoho Valley switchbacks are curvy. Whoever gets queasy rides <b>up front</b> and watches the horizon. No reading or scrolling on twisty bits, keep fresh air coming, and bring ginger chews or candy. Ask a pharmacist about <b>Dramamine/Bonine or Sea-Bands</b> (try them at home first). Stopping every 30–45 min helps a lot.</p></div></div>
+  <div class="card"><div class="pad"><h3>⛽ The gas gap</h3><p>Lake Louise → Jasper is ~230 km with <b>one</b> seasonal fuel stop, at <b>Saskatchewan Crossing</b> (The Crossing Resort, about May–Oct; call ahead, high prices). Fill up in Lake Louise. EV charging there is limited.</p><img src="assets/sask-crossing.jpg" alt="The Crossing Resort at Saskatchewan River Crossing" style="border-radius:12px;margin-top:8px" srcset="assets/sask-crossing-800.jpg 800w, assets/sask-crossing.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="1050" data-k="sask-crossing" loading="lazy" decoding="async"></div></div>
+  <div class="card"><div class="pad"><h3>🧑‍✈️ Who drives</h3><p><b>Jason</b> is the main driver, with <b>Akiko added as the second driver</b>. Policies we checked: Enterprise and Avis Canada list a <b>spouse as a free additional driver</b> (Avis: 25+ with a valid license); Hertz charges unless you're a Gold Plus Rewards member. The spouse shows their license at pickup, and US licenses are fine in Alberta. Confirm with whichever company we book.</p></div></div>
+ </div>
+</div></section>
+
+<section id="weather" class="alt"><div class="wrap">
+ <div class="two">
+  <div>
+   <div class="eyebrow">Weather</div>
+   <h2>Is it cold? (A little!)</h2>
+   <p class="lead">June days are usually <b>sunny and in the 60s–70s °F</b>, but mountain mornings are crisp (often 30s–40s °F), and it gets much colder up on the gondola, the SkyTram and the glacier. Afternoon showers are common, and snow is possible at higher elevations even in June.</p>
+   <div class="weather">
+    <div class="wx">☀️<b>~66 °F</b><small>Typical June high, Banff</small></div>
+    <div class="wx">🌙<b>~42 °F</b><small>Typical June low, Banff</small></div>
+    <div class="wx">🧊<b>~35–45 °F</b><small>On the glacier, windy</small></div>
+    <div class="wx">🌅<b>~10 pm</b><small>June sunset</small></div>
+   </div>
+   <p class="note">Approximate climate averages; actual June 2027 weather unknown. <b>Early June</b>: some higher lakes (Moraine, Lake Agnes) can still be partly frozen and trails snowy. <b>Mid–late June</b> is better.</p>
+  </div>
+  <img class="round" src="assets/icefields.jpg" alt="Icefields Parkway near the Columbia Icefield" srcset="assets/icefields-800.jpg 800w, assets/icefields.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="875" data-k="icefields" loading="lazy" decoding="async">
+ </div>
+</div></section>
+
+<section id="packing"><div class="wrap">
+ <div class="eyebrow">Packing list</div>
+ <h2>What to bring</h2>
+ <p class="lead">Think <b>layers</b>: you can go from a T-shirt to a puffy jacket in the same afternoon. Checkmarks save on your phone.</p>
+ <div class="progress"><i id="packbar"></i></div>
+ <div class="grid g3" id="packing-lists">
+  <div class="check"><h3>🧥 Clothes</h3>
+   <label><input type="checkbox"><span>Warm puffy or fleece jacket (in the carry-on!)</span></label>
+   <label><input type="checkbox"><span>Waterproof rain jacket (a must)</span></label>
+   <label><input type="checkbox"><span>Beanie + light gloves (glacier &amp; gondola)</span></label>
+   <label><input type="checkbox"><span>Long pants / leggings + a few shorts</span></label>
+   <label><input type="checkbox"><span>T-shirts + long-sleeve base layers</span></label>
+   <label><input type="checkbox"><span>Swimsuit (hot springs!)</span></label>
+   <label><input type="checkbox"><span>Comfy hiking shoes or trail runners</span></label>
+   <label><input type="checkbox"><span>Warm wool socks</span></label>
+   <label><input type="checkbox"><span>One nicer outfit (fondue / tea)</span></label></div>
+  <div class="check"><h3>🎒 Day pack</h3>
+   <label><input type="checkbox"><span>Reusable water bottles</span></label>
+   <label><input type="checkbox"><span>Sunscreen + lip balm (strong sun at altitude)</span></label>
+   <label><input type="checkbox"><span>Sunglasses (glacier glare is intense)</span></label>
+   <label><input type="checkbox"><span>Bug spray (mosquitoes near lakes)</span></label>
+   <label><input type="checkbox"><span>Bear spray: buy in Calgary/Banff (can't fly with it)</span></label>
+   <label><input type="checkbox"><span>Snacks for the long drives</span></label>
+   <label><input type="checkbox"><span>Small first-aid kit, meds &amp; motion-sickness remedy</span></label>
+   <label><input type="checkbox"><span>Binoculars for wildlife</span></label></div>
+  <div class="check"><h3>📱 Docs &amp; tech</h3>
+   <label><input type="checkbox"><span>Passports for all 4 (book, not card)</span></label>
+   <label><input type="checkbox"><span>Driver's license + credit card for the rental</span></label>
+   <label><input type="checkbox"><span>Parks Canada pass (print or phone)</span></label>
+   <label><input type="checkbox"><span>Booking confirmations offline</span></label>
+   <label><input type="checkbox"><span>Offline Google Maps downloaded</span></label>
+   <label><input type="checkbox"><span>Multi-port USB-C car charger + cables + power bank</span></label>
+   <label><input type="checkbox"><span>Camera / extra storage space on phones</span></label>
+   <label><input type="checkbox"><span>A little Canadian cash (tea house, tips)</span></label></div>
+ </div>
+</div></section>
+
+<section id="safety" class="alt"><div class="wrap">
+ <div class="eyebrow">Stay safe</div>
+ <h2>Mountain safety, the short version</h2>
+ <div class="grid g3" style="margin-top:20px">
+  <div class="safe"><span class="emoji">🐻</span><h3>Bears &amp; bear spray</h3><p>Grizzlies and black bears live here. On trails: carry <b>bear spray</b> (know how to use it, video below), hike together, and talk or make noise. Never leave food in the open. You can't fly with bear spray, so buy it in Calgary or Banff (or rent in Banff).</p></div>
+  <div class="safe"><span class="emoji">🦌</span><h3>Give wildlife space</h3><p>Parks Canada says stay <b>100 m (10 bus lengths)</b> from bears, wolves and cougars, and <b>30 m (3 bus lengths)</b> from elk, sheep, deer and moose. Elk can charge in <b>calving season (late May–June)</b>. Stay in the car at "bear jams", and never feed animals.</p></div>
+  <div class="safe"><span class="emoji">🧊</span><h3>Glaciers &amp; crevasses</h3><p>Only walk on the glacier inside the <b>marked safe area</b> of the Ice Explorer tour. Hidden crevasses on the Athabasca toe have killed people. Don't climb past the signs.</p></div>
+  <div class="safe"><span class="emoji">🥶</span><h3>Cold water</h3><p>Glacier lakes and rivers are only a few degrees above freezing, so falling in can cause cold shock fast. Always wear the life jacket in canoes, stay seated, and keep away from riverbanks and waterfall edges.</p></div>
+  <div class="safe"><span class="emoji">⛰️</span><h3>Altitude</h3><p>Banff is about 1,380 m (4,500 ft) and the gondola/SkyTram tops are ~2,270 m (7,450 ft). That's mild, but you may feel short of breath. Drink extra water, take it easy the first day, and wear sunscreen.</p></div>
+  <div class="safe"><span class="emoji">⛈️</span><h3>Weather &amp; roads</h3><p>Weather changes quickly: carry rain gear and layers. Check road conditions on <b>511 Alberta</b>. Fill up on gas before the Icefields Parkway, and don't stop in traffic lanes for photos.</p></div>
+ </div>
+ <div class="grid g2" style="margin-top:30px;align-items:center">
+  <div><div class="vid" data-id="aIvpLzHiCrg"><img src="https://i.ytimg.com/vi/aIvpLzHiCrg/hqdefault.jpg" alt="" loading="lazy" decoding="async"><div class="play"></div></div><div class="vcap"><b>How to Use Bear Spray: Banff National Park</b><small>Parks Canada (official) · 2 min</small></div></div>
+  <div><h3>Will we see bears?</h3><p>Maybe! Bears are most often seen from the car along roadsides in June, especially on the Bow Valley Parkway, Icefields Parkway and Maligne Lake Road. Seeing one from a safe distance in the car is the best way. Elk and bighorn sheep are almost guaranteed.</p><img class="round" src="assets/black-bear.jpg" alt="Black bear in Jasper" style="margin-top:12px" srcset="assets/black-bear-800.jpg 800w, assets/black-bear.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="934" data-k="black-bear" loading="lazy" decoding="async"></div>
+ </div>
+</div></section>
+
+<section id="money"><div class="wrap">
+ <div class="eyebrow">Money</div>
+ <h2>Budget (rough estimates)</h2>
+ <p class="lead">These are <b>planning estimates only, not live prices</b>. Real prices depend on dates and how early we book. Prices in Canada are in <b>Canadian dollars (CA$)</b>, and US$1 has usually bought roughly CA$1.35–1.40 lately (check closer to the trip), so a CA$20 lunch is about US$15.</p>
+ <div class="tablewrap" style="margin-top:20px"><table>
+  <tr><th>Item (family of 4)</th><th>Estimate (USD)</th><th>Notes</th></tr>
+  <tr><td>✈️ Flights SAN ⇄ Calgary (×4)</td><td>$2,000–3,200</td><td>Usually 1 stop; book early</td></tr>
+  <tr><td>🏨 Lodging, 8 nights</td><td>$2,400–3,750</td><td>From the example hotels (Banff 3 × ~$330–500, Lake Louise 2 × ~$230–450, Jasper 3 × ~$260–450). Book <b>6–9 months ahead</b>, Jasper by ~Dec 2026</td></tr>
+  <tr><td>🚙 Rental SUV (~9 days)</td><td>$700–1,000</td><td>+ one-way fee if dropping in Edmonton</td></tr>
+  <tr><td>🎟️ Activities</td><td>$700–1,000</td><td>Gondola, Ice Explorer + Skywalk, Maligne cruise, SkyTram, hot springs, canoes</td></tr>
+  <tr><td>🌲 Parks Canada Discovery Pass</td><td>~$120</td><td>CA$167.50 family/group (2026 price)</td></tr>
+  <tr><td>🍽️ Food</td><td>$1,350–2,250</td><td>~$150–250/day for 4 (less with included breakfast + groceries)</td></tr>
+  <tr><td>⛽ Gas</td><td>$200–300</td><td>~900–1,000 km of driving</td></tr>
+  <tr class="total"><td>Total (rough)</td><td>≈ $7,500–11,600</td><td>All figures are estimates</td></tr>
+ </table></div>
+ <p class="tip" style="margin-top:16px">🛡️ <b>Travel insurance:</b> worth a look once we book. Get a policy covering trip cancellation plus emergency medical, since US health plans often cover little or nothing in Canada.</p>
+ <div class="grid g3" style="margin-top:28px">
+  <div class="card"><div class="pad"><h3>💳 Cards</h3><p>Visa and Mastercard work almost everywhere, and tap-to-pay is standard. Use a card with <b>no foreign transaction fee</b>. Amex is accepted less often. Carry a little CA$ cash for small shops and the tea house.</p></div></div>
+  <div class="card"><div class="pad"><h3>💵 Tipping</h3><p>Like the US: <b>15–20%</b> at sit-down restaurants, a few dollars for tour guides and housekeeping. Card machines will prompt you.</p></div></div>
+  <div class="card"><div class="pad"><h3>🧾 Taxes</h3><p>Alberta adds 5% GST (no provincial sales tax). BC (Yoho) adds GST + 7% PST. Hotels add tourism levies.</p></div></div>
+ </div>
+</div></section>
+
+<section id="passports" class="alt"><div class="wrap">
+ <div class="two">
+  <div>
+   <div class="eyebrow">Passports</div>
+   <h2>Everyone needs a passport book</h2>
+   <p class="lead">Flying into Canada needs a <b>passport book</b> for each of us. A passport card only works by land or sea. US citizens don't need a visa or eTA.</p>
+   <div class="alert"><b>Kate &amp; Emily (under 16):</b> first-time and renewal passports must be applied for <b>in person with Form DS-11</b>, and <b>both parents should come along</b> with the girls. If one parent can't, they sign a notarized <b>Form DS-3053</b> consent. You need proof of citizenship (birth certificate), parent IDs and a photo. Child passports are valid 5 years. Fees: <b>$100 application + $35 acceptance</b> each (2026).</div>
+   <p><b>Timeline (State Dept., Oct 2026):</b> routine processing <b>4–6 weeks</b>, expedited <b>2–3 weeks</b> (+$60), <b>plus</b> up to 2 weeks mailing each way. The State Department says the <b>quietest time to apply is October–December</b>, so applying this winter is perfect.</p>
+   <p><b>Jason &amp; Akiko:</b> check your passport expiry dates now. If either expires before early 2028, renew early.</p>
+   <p class="note">Note: if either girl turns 16 before applying, they still apply in person with DS-11 for a first passport, and a parent must be aware of the application. Source: <a href="https://travel.state.gov/en/passports/apply/child/under-16.html" target="_blank" rel="noopener">travel.state.gov</a>.</p>
+  </div>
+  <img class="round" src="assets/peyto-wide.jpg" alt="Peyto Lake panorama" srcset="assets/peyto-wide-800.jpg 800w, assets/peyto-wide.jpg 1400w" sizes="(max-width: 860px) 100vw, 50vw" width="1400" height="575" data-k="peyto-wide" loading="lazy" decoding="async">
+ </div>
+</div></section>
+
+<section id="phone"><div class="wrap">
+ <div class="eyebrow">Phones &amp; data</div>
+ <h2>Staying connected</h2>
+ <div class="grid g3" style="margin-top:20px">
+  <div class="card"><div class="pad"><h3>📶 Check our US plan</h3><p>Some US plans include Canada at no extra cost, and others charge a daily travel pass (often ~$10–12/day per phone, estimate). Check with our carrier before we go.</p></div></div>
+  <div class="card"><div class="pad"><h3>📲 eSIM option</h3><p>A Canada eSIM data plan is an easy, cheap backup for the girls' phones. Make sure the phones are unlocked/eSIM-capable.</p></div></div>
+  <div class="card"><div class="pad"><h3>🗺️ Offline maps</h3><p>Download Google Maps offline areas for Banff, Lake Louise, Jasper and the whole Icefields Parkway. Also download playlists and shows for the drive.</p></div></div>
+  <div class="card"><div class="pad"><h3>🚫 Dead zones</h3><p>The <b>Icefields Parkway has no cell service</b> for most of its 230 km, and many trails are spotty too. Agree on meeting spots in advance.</p></div></div>
+  <div class="card"><div class="pad"><h3>📡 Wi-Fi</h3><p>Hotels, cafés and visitor centres in Banff, Lake Louise and Jasper have Wi-Fi. Speeds in mountain lodges can be slow.</p></div></div>
+  <div class="card"><div class="pad"><h3>🔌 Plugs</h3><p>Same plugs and voltage as the US, so no adapters needed!</p></div></div>
+ </div>
+</div></section>
+
+<section id="faq" class="alt"><div class="wrap">
+ <div class="eyebrow">Questions</div>
+ <h2>FAQ</h2>
+ <div style="max-width:860px;margin-top:20px">
+  <details><summary>Is it going to be cold?</summary><p>Days are usually pleasant (60s–70s °F), but mornings are chilly (30s–40s) and it's colder and windy on the glacier and mountaintops. Bring a warm jacket, beanie and rain jacket and you'll be comfy.</p></details>
+  <details><summary>Will we see bears?</summary><p>There's a decent chance in June, usually from the car along the roadsides. Elk, bighorn sheep and deer are almost guaranteed; moose are possible around Jasper. We always keep our distance and carry bear spray on hikes.</p></details>
+  <details><summary>How much driving is it?</summary><p>About 900–1,000 km total. Most days have only 30 min–2 hrs of driving. Day 6 (Icefields Parkway) and the last day are the long ones, but the Parkway is the attraction, with stops every 20 minutes.</p></details>
+  <details><summary>Will there be Wi-Fi?</summary><p>Yes at hotels and cafés in town. No cell service on most of the Icefields Parkway and on many trails, so download stuff in advance.</p></details>
+  <details><summary>Is there shopping?</summary><p>Yes! Banff Avenue is packed with outdoor brands, souvenir and Canadian shops, and treats. Jasper and Lake Louise have smaller shops, and Calgary has big malls if we have time on the way in or out.</p></details>
+  <details><summary>What if it rains?</summary><p>Mountain showers usually pass quickly. Rainy-day ideas: the hot springs (fun in the rain!), Cave and Basin National Historic Site, the Whyte Museum and Banff Park Museum, shopping on Banff Ave, a lake cruise, or a cozy café. Waterfalls are even bigger after rain.</p></details>
+  <details><summary>Can we swim?</summary><p>The lakes are glacier-fed and freezing, so it's a quick polar-plunge dare at most. The Banff Upper Hot Springs (warm!) and hotel pools are the real swimming. Bring swimsuits.</p></details>
+  <details><summary>Will we have jet lag?</summary><p>Nope. Alberta is on Mountain Time, just <b>1 hour ahead</b> of San Diego. The bigger adjustment is that it stays light until about 10 pm, so bring a sleep mask.</p></details>
+  <details><summary>How long is the flight?</summary><p>About 5–6 hours including one connection (often Seattle, Denver or Vancouver). We'll also check whether any seasonal nonstop is offered when we book.</p></details>
+  <details><summary>Do the hikes need to be hard?</summary><p>No. Everything in the plan has an easy option: Johnston Canyon Lower Falls, Lake Louise shoreline, Peyto viewpoint, Emerald Lake loop. Lake Agnes is the "bigger" hike (~2.5–3 hrs round trip) with a teahouse reward.</p></details>
+  <details><summary>Is anything booked?</summary><p>No, this is a <b>draft idea</b>. All prices are estimates. If we decide to go: Jasper lodging by ~Dec 2026, Banff and Lake Louise soon after, passports this winter, and Moraine shuttle seats when they open in spring 2027.</p></details>
+  <details><summary>Do we need an eTA or ArriveCAN?</summary><p>No eTA or visa for US citizens, just passports. ArriveCAN's Advance Declaration is optional; you can fill it out up to 72 hours before landing to speed up the customs kiosks.</p></details>
+ </div>
+</div></section>
+
+<section id="photos"><div class="wrap">
+ <div class="eyebrow">Gallery</div>
+ <h2>More eye candy</h2>
+ <p class="lead">Tap any photo to see it big, with who took it.</p>
+ <div class="gallery" style="margin-top:20px"><img src="assets/moraine.jpg" alt="Turquoise Moraine Lake below the Valley of the Ten Peaks" data-g="1" srcset="assets/moraine-800.jpg 800w, assets/moraine.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="1000" data-k="moraine" loading="lazy" decoding="async"><img src="assets/moraine-sunrise.jpg" alt="Moraine Lake at sunrise" data-g="1" srcset="assets/moraine-sunrise-800.jpg 800w, assets/moraine-sunrise.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="747" data-k="moraine-sunrise" loading="lazy" decoding="async"><img src="assets/moraine-reflect.jpg" alt="Moraine Lake" data-g="1" srcset="assets/moraine-reflect-800.jpg 800w, assets/moraine-reflect.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="1050" data-k="moraine-reflect" loading="lazy" decoding="async"><img src="assets/louise-boathouse.jpg" alt="Lake Louise boathouse and red canoes" data-g="1" srcset="assets/louise-boathouse-800.jpg 800w, assets/louise-boathouse.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="788" data-k="louise-boathouse" loading="lazy" decoding="async"><img src="assets/louise-shore.jpg" alt="Lake Louise shoreline" data-g="1" srcset="assets/louise-shore-800.jpg 800w, assets/louise-shore.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="934" data-k="louise-shore" loading="lazy" decoding="async"><img src="assets/lake-agnes.jpg" alt="Lake Agnes Tea House" data-g="1" srcset="assets/lake-agnes-800.jpg 800w, assets/lake-agnes.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="1050" data-k="lake-agnes" loading="lazy" decoding="async"><img src="assets/peyto.jpg" alt="Peyto Lake" data-g="1" srcset="assets/peyto-800.jpg 800w, assets/peyto.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="832" data-k="peyto" loading="lazy" decoding="async"><img src="assets/peyto-wide.jpg" alt="Peyto Lake panorama" data-g="1" srcset="assets/peyto-wide-800.jpg 800w, assets/peyto-wide.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="575" data-k="peyto-wide" loading="lazy" decoding="async"><img src="assets/bow-lake.jpg" alt="Bow Lake reflection" data-g="1" srcset="assets/bow-lake-800.jpg 800w, assets/bow-lake.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="934" data-k="bow-lake" loading="lazy" decoding="async"><img src="assets/johnston-falls.jpg" alt="Johnston Canyon falls" data-g="1" srcset="assets/johnston-falls-800.jpg 800w, assets/johnston-falls.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="934" data-k="johnston-falls" loading="lazy" decoding="async"><img src="assets/johnston-pool.jpg" alt="Johnston Canyon-Lower Falls" data-g="1" srcset="assets/johnston-pool-800.jpg 800w, assets/johnston-pool.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="858" data-k="johnston-pool" loading="lazy" decoding="async"><img src="assets/johnston-catwalk.jpg" alt="Johnston Canyon catwalk" data-g="1" srcset="assets/johnston-catwalk-800.jpg 800w, assets/johnston-catwalk.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="934" data-k="johnston-catwalk" loading="lazy" decoding="async"><img src="assets/gondola.jpg" alt="Banff Gondola cabin" data-g="1" srcset="assets/gondola-800.jpg 800w, assets/gondola.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="934" data-k="gondola" loading="lazy" decoding="async"><img src="assets/banff-town.jpg" alt="Town of Banff below Cascade Mountain" data-g="1" srcset="assets/banff-town-800.jpg 800w, assets/banff-town.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="883" data-k="banff-town" loading="lazy" decoding="async"><img src="assets/banff-ave.jpg" alt="Banff Avenue with Cascade Mountain" data-g="1" srcset="assets/banff-ave-800.jpg 800w, assets/banff-ave.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="907" data-k="banff-ave" loading="lazy" decoding="async"><img src="assets/banff-ave-2.jpg" alt="Banff Avenue" data-g="1" srcset="assets/banff-ave-2-800.jpg 800w, assets/banff-ave-2.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="1050" data-k="banff-ave-2" loading="lazy" decoding="async"><img src="assets/vermilion.jpg" alt="Mount Rundle reflected in Vermilion Lakes" data-g="1" srcset="assets/vermilion-800.jpg 800w, assets/vermilion.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="934" data-k="vermilion" loading="lazy" decoding="async"><img src="assets/hot-springs.jpg" alt="Banff Upper Hot Springs pool" data-g="1" srcset="assets/hot-springs-800.jpg 800w, assets/hot-springs.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="1050" data-k="hot-springs" loading="lazy" decoding="async"><img src="assets/emerald.jpg" alt="Emerald Lake in Yoho National Park" data-g="1" srcset="assets/emerald-800.jpg 800w, assets/emerald.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="934" data-k="emerald" loading="lazy" decoding="async"><img src="assets/emerald-2.jpg" alt="Emerald lake Yoho national park" data-g="1" srcset="assets/emerald-2-800.jpg 800w, assets/emerald-2.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="928" data-k="emerald-2" loading="lazy" decoding="async"><img src="assets/natural-bridge.jpg" alt="Natural Bridge on the Kicking Horse River" data-g="1" srcset="assets/natural-bridge-800.jpg 800w, assets/natural-bridge.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="1049" data-k="natural-bridge" loading="lazy" decoding="async"><img src="assets/icefields.jpg" alt="Icefields Parkway near the Columbia Icefield" data-g="1" srcset="assets/icefields-800.jpg 800w, assets/icefields.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="875" data-k="icefields" loading="lazy" decoding="async"><img src="assets/icefields-road.jpg" alt="Icefields Parkway winding through the valley" data-g="1" srcset="assets/icefields-road-800.jpg 800w, assets/icefields-road.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="928" data-k="icefields-road" loading="lazy" decoding="async"><img src="assets/athabasca.jpg" alt="Athabasca Glacier" data-g="1" srcset="assets/athabasca-800.jpg 800w, assets/athabasca.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="960" data-k="athabasca" loading="lazy" decoding="async"><img src="assets/ice-explorer.jpg" alt="Ice Explorer vehicles on the Athabasca Glacier" data-g="1" srcset="assets/ice-explorer-800.jpg 800w, assets/ice-explorer.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="1000" data-k="ice-explorer" loading="lazy" decoding="async"><img src="assets/skywalk.jpg" alt="Columbia Icefield Skywalk" data-g="1" srcset="assets/skywalk-800.jpg 800w, assets/skywalk.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="934" data-k="skywalk" loading="lazy" decoding="async"><img src="assets/athabasca-falls.jpg" alt="Athabasca Falls" data-g="1" srcset="assets/athabasca-falls-800.jpg 800w, assets/athabasca-falls.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="1050" data-k="athabasca-falls" loading="lazy" decoding="async"><img src="assets/spirit-island.jpg" alt="Spirit Island on Maligne Lake" data-g="1" srcset="assets/spirit-island-800.jpg 800w, assets/spirit-island.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="865" data-k="spirit-island" loading="lazy" decoding="async"><img src="assets/spirit-island-2.jpg" alt="Spirit Island" data-g="1" srcset="assets/spirit-island-2-800.jpg 800w, assets/spirit-island-2.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="934" data-k="spirit-island-2" loading="lazy" decoding="async"><img src="assets/maligne-canyon.jpg" alt="Maligne Canyon (closed through 2026 after the wildfire)" data-g="1" srcset="assets/maligne-canyon-800.jpg 800w, assets/maligne-canyon.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="934" data-k="maligne-canyon" loading="lazy" decoding="async"><img src="assets/skytram.jpg" alt="Jasper SkyTram cabin" data-g="1" srcset="assets/skytram-800.jpg 800w, assets/skytram.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="1050" data-k="skytram" loading="lazy" decoding="async"><img src="assets/elk.jpg" alt="Bull elk in Banff" data-g="1" srcset="assets/elk-800.jpg 800w, assets/elk.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="928" data-k="elk" loading="lazy" decoding="async"><img src="assets/bighorn.jpg" alt="Bighorn sheep" data-g="1" srcset="assets/bighorn-800.jpg 800w, assets/bighorn.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="788" data-k="bighorn" loading="lazy" decoding="async"><img src="assets/black-bear.jpg" alt="Black bear in Jasper National Park" data-g="1" srcset="assets/black-bear-800.jpg 800w, assets/black-bear.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="934" data-k="black-bear" loading="lazy" decoding="async"><img src="assets/moose.jpg" alt="Moose mother and calf" data-g="1" srcset="assets/moose-800.jpg 800w, assets/moose.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="1099" data-k="moose" loading="lazy" decoding="async"><img src="assets/night-sky.jpg" alt="Starry night sky over Banff" data-g="1" srcset="assets/night-sky-800.jpg 800w, assets/night-sky.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="934" data-k="night-sky" loading="lazy" decoding="async"><img src="assets/poutine.jpg" alt="Plate of poutine" data-g="1" srcset="assets/poutine-800.jpg 800w, assets/poutine.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="788" data-k="poutine" loading="lazy" decoding="async"><img src="assets/beavertails.jpg" alt="Fried-dough pastries like BeaverTails" data-g="1" srcset="assets/beavertails-800.jpg 800w, assets/beavertails.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="934" data-k="beavertails" loading="lazy" decoding="async"><img src="assets/stay-banff.jpg" alt="Banff Avenue" data-g="1" srcset="assets/stay-banff-800.jpg 800w, assets/stay-banff.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="831" data-k="stay-banff" loading="lazy" decoding="async"><img src="assets/stay-louise.jpg" alt="Samson Mall, Lake Louise village" data-g="1" srcset="assets/stay-louise-800.jpg 800w, assets/stay-louise.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="875" data-k="stay-louise" loading="lazy" decoding="async"><img src="assets/stay-jasper.jpg" alt="Connaught Drive, Jasper" data-g="1" srcset="assets/stay-jasper-800.jpg 800w, assets/stay-jasper.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="737" data-k="stay-jasper" loading="lazy" decoding="async"><img src="assets/cave-basin.jpg" alt="Cave and Basin National Historic Site" data-g="1" srcset="assets/cave-basin-800.jpg 800w, assets/cave-basin.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="934" data-k="cave-basin" loading="lazy" decoding="async"><img src="assets/park-museum.jpg" alt="Banff Park Museum (inside)" data-g="1" srcset="assets/park-museum-800.jpg 800w, assets/park-museum.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="1050" data-k="park-museum" loading="lazy" decoding="async"><img src="assets/sask-crossing.jpg" alt="The Crossing Resort, Saskatchewan River Crossing" data-g="1" srcset="assets/sask-crossing-800.jpg 800w, assets/sask-crossing.jpg 1400w" sizes="(max-width: 700px) 50vw, 25vw" width="1400" height="1050" data-k="sask-crossing" loading="lazy" decoding="async"></div>
+</div></section>
+
+<section id="credits" class="alt"><div class="wrap">
+ <h3>Photo &amp; video credits</h3>
+ <p class="note">All photos are from Wikimedia Commons under the licenses listed (Creative Commons or public domain), resized for this page. Videos are embedded from YouTube and belong to their creators. Map © OpenStreetMap contributors, Leaflet.</p>
+ <ul class="credits"><li><b>Turquoise Moraine Lake below the Valley of the Ten Peaks</b>: Tobias Alt, Tobi 87, <a href="https://commons.wikimedia.org/wiki/File:Moraine_Lake-Banff_NP.JPG" target="_blank" rel="noopener">File:Moraine Lake-Banff NP.JPG</a>, CC BY-SA 4.0 (<a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">license</a>)</li><li><b>Moraine Lake at sunrise</b>: Chensiyuan, <a href="https://commons.wikimedia.org/wiki/File:1_moraine_lake_pano_2019.jpg" target="_blank" rel="noopener">File:1 moraine lake pano 2019.jpg</a>, CC BY-SA 4.0 (<a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">license</a>)</li><li><b>Moraine Lake</b>: Gorgo, <a href="https://commons.wikimedia.org/wiki/File:Moraine_Lake_17092005.jpg" target="_blank" rel="noopener">File:Moraine Lake 17092005.jpg</a>, Public domain</li><li><b>Lake Louise boathouse and red canoes</b>: Dietmar Rabich, <a href="https://commons.wikimedia.org/wiki/File:Banff_National_Park_(AB,_Canada),_Lake_Louise_--_2022_--_2197.jpg" target="_blank" rel="noopener">File:Banff National Park (AB, Canada), Lake Louise -- 2022 -- 2197.jpg</a>, CC BY-SA 4.0 (<a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">license</a>)</li><li><b>Lake Louise shoreline</b>: Dietmar Rabich, <a href="https://commons.wikimedia.org/wiki/File:Banff_National_Park_(AB,_Canada),_Lake_Louise_--_2022_--_2199.jpg" target="_blank" rel="noopener">File:Banff National Park (AB, Canada), Lake Louise -- 2022 -- 2199.jpg</a>, CC BY-SA 4.0 (<a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">license</a>)</li><li><b>Lake Agnes Tea House</b>: qwesy qwesy, <a href="https://commons.wikimedia.org/wiki/File:Lake_Agnes_Tea_House_-_panoramio.jpg" target="_blank" rel="noopener">File:Lake Agnes Tea House - panoramio.jpg</a>, CC BY 3.0 (<a href="https://creativecommons.org/licenses/by/3.0" target="_blank" rel="noopener">license</a>)</li><li><b>Peyto Lake</b>: Tobias Alt, Tobi 87, <a href="https://commons.wikimedia.org/wiki/File:Peyto_Lake-Banff_NP-Canada.jpg" target="_blank" rel="noopener">File:Peyto Lake-Banff NP-Canada.jpg</a>, CC BY-SA 4.0 (<a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">license</a>)</li><li><b>Peyto Lake panorama</b>: Thomas Fuhrmann, <a href="https://commons.wikimedia.org/wiki/File:Peyto_Lake_panoramic_view.jpg" target="_blank" rel="noopener">File:Peyto Lake panoramic view.jpg</a>, CC BY-SA 4.0 (<a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">license</a>)</li><li><b>Bow Lake reflection</b>: Luka Peternel, <a href="https://commons.wikimedia.org/wiki/File:Bow-Lake-2019-reflection-Luka-Peternel.jpg" target="_blank" rel="noopener">File:Bow-Lake-2019-reflection-Luka-Peternel.jpg</a>, CC BY-SA 4.0 (<a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">license</a>)</li><li><b>Johnston Canyon falls</b>: DXR, <a href="https://commons.wikimedia.org/wiki/File:Johnston_Canyon_20240822_6.jpg" target="_blank" rel="noopener">File:Johnston Canyon 20240822 6.jpg</a>, CC BY-SA 4.0 (<a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">license</a>)</li><li><b>Johnston Canyon-Lower Falls</b>: Florian Fuchs, <a href="https://commons.wikimedia.org/wiki/File:Johnston_Canyon-Lower_Falls.jpg" target="_blank" rel="noopener">File:Johnston Canyon-Lower Falls.jpg</a>, CC BY 3.0 (<a href="https://creativecommons.org/licenses/by/3.0" target="_blank" rel="noopener">license</a>)</li><li><b>Johnston Canyon catwalk</b>: Chris Woodrich, <a href="https://commons.wikimedia.org/wiki/File:Johnston_Canyon,_Banff_National_Park,_Alberta,_2025-07-12_02.jpg" target="_blank" rel="noopener">File:Johnston Canyon, Banff National Park, Alberta, 2025-07-12 02.jpg</a>, CC BY-SA 4.0 (<a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">license</a>)</li><li><b>Banff Gondola cabin</b>: Milan Suvajac, <a href="https://commons.wikimedia.org/wiki/File:Banff-National-Park_AB_Banff-Gondola_2022-09-25_(13).jpg" target="_blank" rel="noopener">File:Banff-National-Park AB Banff-Gondola 2022-09-25 (13).jpg</a>, CC BY-SA 4.0 (<a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">license</a>)</li><li><b>Town of Banff below Cascade Mountain</b>: ParsonsPhotographyNL, <a href="https://commons.wikimedia.org/wiki/File:Mount_Cascade_and_the_town_of_Banff_(J).jpg" target="_blank" rel="noopener">File:Mount Cascade and the town of Banff (J).jpg</a>, CC BY-SA 4.0 (<a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">license</a>)</li><li><b>Banff Avenue with Cascade Mountain</b>: InSapphoWeTrust from Los Angeles, California, USA, <a href="https://commons.wikimedia.org/wiki/File:Banff_Avenue,_Banff_(7853823354).jpg" target="_blank" rel="noopener">File:Banff Avenue, Banff (7853823354).jpg</a>, CC BY-SA 2.0 (<a href="https://creativecommons.org/licenses/by-sa/2.0" target="_blank" rel="noopener">license</a>)</li><li><b>Banff Avenue</b>: Phil Whitehouse from London, United Kingdom, <a href="https://commons.wikimedia.org/wiki/File:Banff_Avenue_(3866849216).jpg" target="_blank" rel="noopener">File:Banff Avenue (3866849216).jpg</a>, CC BY 2.0 (<a href="https://creativecommons.org/licenses/by/2.0" target="_blank" rel="noopener">license</a>)</li><li><b>Mount Rundle reflected in Vermilion Lakes</b>: DXR, <a href="https://commons.wikimedia.org/wiki/File:Mount_Rundle,_as_seen_from_First_Vermillion_Lake_20240821_2.jpg" target="_blank" rel="noopener">File:Mount Rundle, as seen from First Vermillion Lake 20240821 2.jpg</a>, CC BY-SA 4.0 (<a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">license</a>)</li><li><b>Banff Upper Hot Springs pool</b>: Vigorous action, <a href="https://commons.wikimedia.org/wiki/File:Banff_Upper_Hot_Springs.JPG" target="_blank" rel="noopener">File:Banff Upper Hot Springs.JPG</a>, CC BY-SA 3.0 (<a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener">license</a>)</li><li><b>Emerald Lake in Yoho National Park</b>: HylgeriaK, <a href="https://commons.wikimedia.org/wiki/File:Emerald_lake_yoho_nationalpark.JPG" target="_blank" rel="noopener">File:Emerald lake yoho nationalpark.JPG</a>, CC BY-SA 3.0 (<a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener">license</a>)</li><li><b>Emerald lake Yoho national park</b>: Soumya.deo, <a href="https://commons.wikimedia.org/wiki/File:Emerald_lake_Yoho_national_park.jpg" target="_blank" rel="noopener">File:Emerald lake Yoho national park.jpg</a>, CC BY-SA 4.0 (<a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">license</a>)</li><li><b>Natural Bridge on the Kicking Horse River</b>: lienyuan lee, <a href="https://commons.wikimedia.org/wiki/File:Horse_River,_Yoho_National_Park_%E5%B9%BD%E9%B6%B4%E5%9C%8B%E5%AE%B6%E5%85%AC%E5%9C%92%E9%A6%AC%E6%B2%B3_-_panoramio.jpg" target="_blank" rel="noopener">File:Horse River, Yoho National Park 幽鶴國家公園馬河 - panoramio.jpg</a>, CC BY 3.0 (<a href="https://creativecommons.org/licenses/by/3.0" target="_blank" rel="noopener">license</a>)</li><li><b>Icefields Parkway near the Columbia Icefield</b>: Florian Fuchs, <a href="https://commons.wikimedia.org/wiki/File:Icefields_Parkway_near_Columbia_Icefield.jpg" target="_blank" rel="noopener">File:Icefields Parkway near Columbia Icefield.jpg</a>, CC BY 3.0 (<a href="https://creativecommons.org/licenses/by/3.0" target="_blank" rel="noopener">license</a>)</li><li><b>Icefields Parkway winding through the valley</b>: Ethan Sahagun, <a href="https://commons.wikimedia.org/wiki/File:Icefields_Parkway_from_the_north_side_of_Parker_Ridge.jpg" target="_blank" rel="noopener">File:Icefields Parkway from the north side of Parker Ridge.jpg</a>, CC BY-SA 4.0 (<a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">license</a>)</li><li><b>Athabasca Glacier</b>: Ethan Sahagun, <a href="https://commons.wikimedia.org/wiki/File:Meltwater_at_the_terminus_of_the_Athabasca_Glacier,_Jasper_National_Park,_Alberta,_Canada.jpg" target="_blank" rel="noopener">File:Meltwater at the terminus of the Athabasca Glacier, Jasper National Park, Alberta, Canada.jpg</a>, CC BY 4.0 (<a href="https://creativecommons.org/licenses/by/4.0" target="_blank" rel="noopener">license</a>)</li><li><b>Ice Explorer vehicles on the Athabasca Glacier</b>: DXR, <a href="https://commons.wikimedia.org/wiki/File:Ice_Explorer_vehicles_on_the_Athabasca_Glacier_20240824_1.jpg" target="_blank" rel="noopener">File:Ice Explorer vehicles on the Athabasca Glacier 20240824 1.jpg</a>, CC BY-SA 4.0 (<a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">license</a>)</li><li><b>Columbia Icefield Skywalk</b>: Wpcpey, <a href="https://commons.wikimedia.org/wiki/File:Columbia_Icefield_Skywalk_view_2018.JPG" target="_blank" rel="noopener">File:Columbia Icefield Skywalk view 2018.JPG</a>, CC BY 4.0 (<a href="https://creativecommons.org/licenses/by/4.0" target="_blank" rel="noopener">license</a>)</li><li><b>Athabasca Falls</b>: Gerald Schrenk, <a href="https://commons.wikimedia.org/wiki/File:Athabasca_Falls_2008.JPG" target="_blank" rel="noopener">File:Athabasca Falls 2008.JPG</a>, CC BY-SA 3.0 (<a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener">license</a>)</li><li><b>Spirit Island on Maligne Lake</b>: Bernd Thaller, <a href="https://commons.wikimedia.org/wiki/File:Spirit_Island_on_Maligne_Lake1.jpg" target="_blank" rel="noopener">File:Spirit Island on Maligne Lake1.jpg</a>, CC BY 2.0 (<a href="https://creativecommons.org/licenses/by/2.0" target="_blank" rel="noopener">license</a>)</li><li><b>Spirit Island</b>: Christian Abend from Laufen /, Bayern / Deutschland, <a href="https://commons.wikimedia.org/wiki/File:Spirit_Island,_Maligne_Lake,_Jasper_NP.jpg" target="_blank" rel="noopener">File:Spirit Island, Maligne Lake, Jasper NP.jpg</a>, CC BY-SA 2.0 (<a href="https://creativecommons.org/licenses/by-sa/2.0" target="_blank" rel="noopener">license</a>)</li><li><b>Maligne Canyon (closed through 2026 after the wildfire)</b>: Kevin He, <a href="https://commons.wikimedia.org/wiki/File:Maligne_Canyon_(16087549975).jpg" target="_blank" rel="noopener">File:Maligne Canyon (16087549975).jpg</a>, CC BY-SA 2.0 (<a href="https://creativecommons.org/licenses/by-sa/2.0" target="_blank" rel="noopener">license</a>)</li><li><b>Jasper SkyTram cabin</b>: Phil Whitehouse from London, United Kingdom, <a href="https://commons.wikimedia.org/wiki/File:Jasper_Tramway_from_below_2009.jpg" target="_blank" rel="noopener">File:Jasper Tramway from below 2009.jpg</a>, CC BY 2.0 (<a href="https://creativecommons.org/licenses/by/2.0" target="_blank" rel="noopener">license</a>)</li><li><b>Bull elk in Banff</b>: Jakub Fryš, <a href="https://commons.wikimedia.org/wiki/File:Elk-Wapiti_-_Banff.jpg" target="_blank" rel="noopener">File:Elk-Wapiti - Banff.jpg</a>, CC BY-SA 4.0 (<a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">license</a>)</li><li><b>Bighorn sheep</b>: Christoph Strässler from Oberdorf BL, Schweiz, <a href="https://commons.wikimedia.org/wiki/File:Bighorn_Sheep,_Jasper_National_Park,_Canada_(54881194681).jpg" target="_blank" rel="noopener">File:Bighorn Sheep, Jasper National Park, Canada (54881194681).jpg</a>, CC BY-SA 4.0 (<a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">license</a>)</li><li><b>Black bear in Jasper National Park</b>: Thomas Fuhrmann, <a href="https://commons.wikimedia.org/wiki/File:American_black_bear_(Ursus_americanus)_-_Jasper_National_Park_05.jpg" target="_blank" rel="noopener">File:American black bear (Ursus americanus) - Jasper National Park 05.jpg</a>, CC BY-SA 4.0 (<a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">license</a>)</li><li><b>Moose mother and calf</b>: Veronika Ronkos, <a href="https://commons.wikimedia.org/wiki/File:Moose_mother_and_calf_on_road.jpg" target="_blank" rel="noopener">File:Moose mother and calf on road.jpg</a>, CC BY-SA 3.0 (<a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener">license</a>)</li><li><b>Starry night sky over Banff</b>: Samson Duborg-Rankin samsonyyc, <a href="https://commons.wikimedia.org/wiki/File:Stars_Sky_Banff_(Unsplash).jpg" target="_blank" rel="noopener">File:Stars Sky Banff (Unsplash).jpg</a>, CC0 (<a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" target="_blank" rel="noopener">license</a>)</li><li><b>Plate of poutine</b>: Antonydstevens, <a href="https://commons.wikimedia.org/wiki/File:Poutine_from_Windsor,_ON.jpg" target="_blank" rel="noopener">File:Poutine from Windsor, ON.jpg</a>, CC0 (<a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en" target="_blank" rel="noopener">license</a>)</li><li><b>Fried-dough pastries like BeaverTails</b>: Arge300exx, <a href="https://commons.wikimedia.org/wiki/File:Fried_Dough_Toppings.jpg" target="_blank" rel="noopener">File:Fried Dough Toppings.jpg</a>, Public domain</li><li><b>Banff Avenue</b>: InSapphoWeTrust from Los Angeles, California, USA, <a href="https://commons.wikimedia.org/wiki/File:Banff_Avenue,_Banff_(7889960184).jpg" target="_blank" rel="noopener">File:Banff Avenue, Banff (7889960184).jpg</a>, CC BY-SA 2.0 (<a href="https://creativecommons.org/licenses/by-sa/2.0" target="_blank" rel="noopener">license</a>)</li><li><b>Samson Mall, Lake Louise village</b>: DXR, <a href="https://commons.wikimedia.org/wiki/File:Samson_Mall,_Lake_Louise_20240823_1.jpg" target="_blank" rel="noopener">File:Samson Mall, Lake Louise 20240823 1.jpg</a>, CC BY-SA 4.0 (<a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">license</a>)</li><li><b>Connaught Drive, Jasper</b>: Sanchom, <a href="https://commons.wikimedia.org/wiki/File:Jasper_Connaught_Drive_East.jpg" target="_blank" rel="noopener">File:Jasper Connaught Drive East.jpg</a>, CC BY-SA 3.0 (<a href="https://creativecommons.org/licenses/by-sa/3.0" target="_blank" rel="noopener">license</a>)</li><li><b>Cave and Basin National Historic Site</b>: Sovernigo, <a href="https://commons.wikimedia.org/wiki/File:Cave_and_Basin_National_Historic_Site.jpg" target="_blank" rel="noopener">File:Cave and Basin National Historic Site.jpg</a>, CC BY-SA 4.0 (<a href="https://creativecommons.org/licenses/by-sa/4.0" target="_blank" rel="noopener">license</a>)</li><li><b>Banff Park Museum (inside)</b>: Sharon Hahn Darlin, <a href="https://commons.wikimedia.org/wiki/File:Banff_Park_Museum,_Banff,_Alberta,_Canada_May_2022_-_Interior.jpg" target="_blank" rel="noopener">File:Banff Park Museum, Banff, Alberta, Canada May 2022 - Interior.jpg</a>, CC BY 2.0 (<a href="https://creativecommons.org/licenses/by/2.0" target="_blank" rel="noopener">license</a>)</li><li><b>The Crossing Resort, Saskatchewan River Crossing</b>: Qyd, <a href="https://commons.wikimedia.org/wiki/File:Saskatchewan_River_Crossing_resort.JPG" target="_blank" rel="noopener">File:Saskatchewan River Crossing resort.JPG</a>, CC BY-SA 3.0 (<a href="http://creativecommons.org/licenses/by-sa/3.0/" target="_blank" rel="noopener">license</a>)</li></ul>
+ <h3 style="margin-top:24px">Videos</h3>
+ <ul class="credits"><li>"Lake Louise &amp; Moraine Lake, Banff NP, Canada [Amazing Places 4K]" by Amazing Places on Our Planet: <a href="https://www.youtube.com/watch?v=WteZwxsvICc" target="_blank" rel="noopener">youtube.com/watch?v=WteZwxsvICc</a></li><li>"Icefields Parkway, Canada | The World in 4K" by Travel + Leisure: <a href="https://www.youtube.com/watch?v=gprZN0vWQvc" target="_blank" rel="noopener">youtube.com/watch?v=gprZN0vWQvc</a></li><li>"(Remember to Breathe) Canada&#x27;s Alberta" by Travel Alberta: <a href="https://www.youtube.com/watch?v=ThFCg0tBDck" target="_blank" rel="noopener">youtube.com/watch?v=ThFCg0tBDck</a></li><li>"Banff &amp; Lake Louise: Summer Travel Guide" by Imagiscope Travel &amp; Tech: <a href="https://www.youtube.com/watch?v=_3sHUqBsiZ8" target="_blank" rel="noopener">youtube.com/watch?v=_3sHUqBsiZ8</a></li><li>"Johnston Canyon Trail: Hike to Lower &amp; Upper Falls" by Haswell Travelled: <a href="https://www.youtube.com/watch?v=XtsBPZHwWRA" target="_blank" rel="noopener">youtube.com/watch?v=XtsBPZHwWRA</a></li><li>"Canada&#x27;s Best Road Trip: Icefields Parkway from Banff to Jasper" by Aly Smalls: <a href="https://www.youtube.com/watch?v=fY9OojMyRrE" target="_blank" rel="noopener">youtube.com/watch?v=fY9OojMyRrE</a></li><li>"The Adventure of a Lifetime | Columbia Icefield" by Pursuit: <a href="https://www.youtube.com/watch?v=hRA1NGXKN2k" target="_blank" rel="noopener">youtube.com/watch?v=hRA1NGXKN2k</a></li><li>"Maligne Lake &amp; Spirit Island Cruise" by Haswell Travelled: <a href="https://www.youtube.com/watch?v=x0VlECGq66o" target="_blank" rel="noopener">youtube.com/watch?v=x0VlECGq66o</a></li><li>"You&#x27;ve Never Seen the Rockies Like This Before" by Tourism Jasper: <a href="https://www.youtube.com/watch?v=RuCf2Qx0qTQ" target="_blank" rel="noopener">youtube.com/watch?v=RuCf2Qx0qTQ</a></li><li>"Jasper Dark Sky Festival - Pyramid Lake" by Tourism Jasper: <a href="https://www.youtube.com/watch?v=qY3i7KggWoQ" target="_blank" rel="noopener">youtube.com/watch?v=qY3i7KggWoQ</a></li><li>"How to Use Bear Spray - Banff National Park" by Parks Canada: <a href="https://www.youtube.com/watch?v=aIvpLzHiCrg" target="_blank" rel="noopener">youtube.com/watch?v=aIvpLzHiCrg</a></li></ul>
+ <h3 style="margin-top:24px">Info sources</h3>
+ <ul class="credits">
+  <li>Parks Canada: Banff fees (Discovery Pass, hot springs, shuttle, parking), Lake Louise &amp; Moraine Lake shuttle, Jasper park recovery &amp; Maligne Canyon closure (checked Oct 2026), wildlife distances.</li>
+  <li>U.S. Department of State, travel.state.gov: child passports under 16 (DS-11, DS-3053), processing times (updated Oct 5, 2026).</li>
+  <li>Pursuit / Banff Jasper Collection: Columbia Icefield Adventure (2027 dates) &amp; Jasper SkyTram.</li>
+  <li>Tourism Jasper: Maligne Lake Cruise. Drive times: OSRM / OpenStreetMap routing.</li>
+ </ul>
+</div></section>
+
+<footer><div class="wrap">
+ <b>Canadian Rockies 2027: a draft family trip idea.</b><br>
+ Nothing is booked. Every price is a rough estimate, not a live quote. Made with 💙 for Akiko, Kate &amp; Emily.
+</div></footer>
+
+<div id="lb" onclick="if(event.target===this)closeLb()"><button onclick="closeLb()" aria-label="Close">×</button><img id="lbimg" alt=""><p id="lbcap"></p></div>
+
+<script src="assets/leaflet.js"></script>
+<script src="assets/route.js"></script>
+<script>const META={"moraine": {"file": "assets/moraine.jpg", "cap": "Turquoise Moraine Lake below the Valley of the Ten Peaks", "author": "Tobias Alt, Tobi 87", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Moraine_Lake-Banff_NP.JPG"}, "moraine-sunrise": {"file": "assets/moraine-sunrise.jpg", "cap": "Moraine Lake at sunrise", "author": "Chensiyuan", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:1_moraine_lake_pano_2019.jpg"}, "moraine-reflect": {"file": "assets/moraine-reflect.jpg", "cap": "Moraine Lake", "author": "Gorgo", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Moraine_Lake_17092005.jpg"}, "louise-boathouse": {"file": "assets/louise-boathouse.jpg", "cap": "Lake Louise boathouse and red canoes", "author": "Dietmar Rabich", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Banff_National_Park_(AB,_Canada),_Lake_Louise_--_2022_--_2197.jpg"}, "louise-shore": {"file": "assets/louise-shore.jpg", "cap": "Lake Louise shoreline", "author": "Dietmar Rabich", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Banff_National_Park_(AB,_Canada),_Lake_Louise_--_2022_--_2199.jpg"}, "peyto": {"file": "assets/peyto.jpg", "cap": "Peyto Lake", "author": "Tobias Alt, Tobi 87", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Peyto_Lake-Banff_NP-Canada.jpg"}, "peyto-wide": {"file": "assets/peyto-wide.jpg", "cap": "Peyto Lake panorama", "author": "Thomas Fuhrmann", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Peyto_Lake_panoramic_view.jpg"}, "johnston-falls": {"file": "assets/johnston-falls.jpg", "cap": "Johnston Canyon falls", "author": "DXR", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Johnston_Canyon_20240822_6.jpg"}, "johnston-catwalk": {"file": "assets/johnston-catwalk.jpg", "cap": "Johnston Canyon catwalk", "author": "Chris Woodrich", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Johnston_Canyon,_Banff_National_Park,_Alberta,_2025-07-12_02.jpg"}, "johnston-pool": {"file": "assets/johnston-pool.jpg", "cap": "Johnston Canyon-Lower Falls", "author": "Florian Fuchs", "license": "CC BY 3.0", "source": "https://commons.wikimedia.org/wiki/File:Johnston_Canyon-Lower_Falls.jpg"}, "gondola": {"file": "assets/gondola.jpg", "cap": "Banff Gondola cabin", "author": "Milan Suvajac", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Banff-National-Park_AB_Banff-Gondola_2022-09-25_(13).jpg"}, "athabasca": {"file": "assets/athabasca.jpg", "cap": "Athabasca Glacier", "author": "Ethan Sahagun", "license": "CC BY 4.0", "source": "https://commons.wikimedia.org/wiki/File:Meltwater_at_the_terminus_of_the_Athabasca_Glacier,_Jasper_National_Park,_Alberta,_Canada.jpg"}, "ice-explorer": {"file": "assets/ice-explorer.jpg", "cap": "Ice Explorer vehicles on the Athabasca Glacier", "author": "DXR", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Ice_Explorer_vehicles_on_the_Athabasca_Glacier_20240824_1.jpg"}, "skywalk": {"file": "assets/skywalk.jpg", "cap": "Columbia Icefield Skywalk", "author": "Wpcpey", "license": "CC BY 4.0", "source": "https://commons.wikimedia.org/wiki/File:Columbia_Icefield_Skywalk_view_2018.JPG"}, "spirit-island": {"file": "assets/spirit-island.jpg", "cap": "Spirit Island on Maligne Lake", "author": "Bernd Thaller", "license": "CC BY 2.0", "source": "https://commons.wikimedia.org/wiki/File:Spirit_Island_on_Maligne_Lake1.jpg"}, "spirit-island-2": {"file": "assets/spirit-island-2.jpg", "cap": "Spirit Island", "author": "Christian Abend from Laufen /, Bayern / Deutschland", "license": "CC BY-SA 2.0", "source": "https://commons.wikimedia.org/wiki/File:Spirit_Island,_Maligne_Lake,_Jasper_NP.jpg"}, "maligne-canyon": {"file": "assets/maligne-canyon.jpg", "cap": "Maligne Canyon (closed through 2026 after the wildfire)", "author": "Kevin He", "license": "CC BY-SA 2.0", "source": "https://commons.wikimedia.org/wiki/File:Maligne_Canyon_(16087549975).jpg"}, "emerald": {"file": "assets/emerald.jpg", "cap": "Emerald Lake in Yoho National Park", "author": "HylgeriaK", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Emerald_lake_yoho_nationalpark.JPG"}, "emerald-2": {"file": "assets/emerald-2.jpg", "cap": "Emerald lake Yoho national park", "author": "Soumya.deo", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Emerald_lake_Yoho_national_park.jpg"}, "natural-bridge": {"file": "assets/natural-bridge.jpg", "cap": "Natural Bridge on the Kicking Horse River", "author": "lienyuan lee", "license": "CC BY 3.0", "source": "https://commons.wikimedia.org/wiki/File:Horse_River,_Yoho_National_Park_%E5%B9%BD%E9%B6%B4%E5%9C%8B%E5%AE%B6%E5%85%AC%E5%9C%92%E9%A6%AC%E6%B2%B3_-_panoramio.jpg"}, "elk": {"file": "assets/elk.jpg", "cap": "Bull elk in Banff", "author": "Jakub Fry\u0161", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Elk-Wapiti_-_Banff.jpg"}, "bighorn": {"file": "assets/bighorn.jpg", "cap": "Bighorn sheep", "author": "Christoph Str\u00e4ssler from Oberdorf BL, Schweiz", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Bighorn_Sheep,_Jasper_National_Park,_Canada_(54881194681).jpg"}, "black-bear": {"file": "assets/black-bear.jpg", "cap": "Black bear in Jasper National Park", "author": "Thomas Fuhrmann", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:American_black_bear_(Ursus_americanus)_-_Jasper_National_Park_05.jpg"}, "moose": {"file": "assets/moose.jpg", "cap": "Moose mother and calf", "author": "Veronika Ronkos", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Moose_mother_and_calf_on_road.jpg"}, "banff-ave": {"file": "assets/banff-ave.jpg", "cap": "Banff Avenue with Cascade Mountain", "author": "InSapphoWeTrust from Los Angeles, California, USA", "license": "CC BY-SA 2.0", "source": "https://commons.wikimedia.org/wiki/File:Banff_Avenue,_Banff_(7853823354).jpg"}, "banff-ave-2": {"file": "assets/banff-ave-2.jpg", "cap": "Banff Avenue", "author": "Phil Whitehouse from London, United Kingdom", "license": "CC BY 2.0", "source": "https://commons.wikimedia.org/wiki/File:Banff_Avenue_(3866849216).jpg"}, "night-sky": {"file": "assets/night-sky.jpg", "cap": "Starry night sky over Banff", "author": "Samson Duborg-Rankin samsonyyc", "license": "CC0", "source": "https://commons.wikimedia.org/wiki/File:Stars_Sky_Banff_(Unsplash).jpg"}, "bow-lake": {"file": "assets/bow-lake.jpg", "cap": "Bow Lake reflection", "author": "Luka Peternel", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Bow-Lake-2019-reflection-Luka-Peternel.jpg"}, "vermilion": {"file": "assets/vermilion.jpg", "cap": "Mount Rundle reflected in Vermilion Lakes", "author": "DXR", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Mount_Rundle,_as_seen_from_First_Vermillion_Lake_20240821_2.jpg"}, "hot-springs": {"file": "assets/hot-springs.jpg", "cap": "Banff Upper Hot Springs pool", "author": "Vigorous action", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Banff_Upper_Hot_Springs.JPG"}, "lake-agnes": {"file": "assets/lake-agnes.jpg", "cap": "Lake Agnes Tea House", "author": "qwesy qwesy", "license": "CC BY 3.0", "source": "https://commons.wikimedia.org/wiki/File:Lake_Agnes_Tea_House_-_panoramio.jpg"}, "skytram": {"file": "assets/skytram.jpg", "cap": "Jasper SkyTram cabin", "author": "Phil Whitehouse from London, United Kingdom", "license": "CC BY 2.0", "source": "https://commons.wikimedia.org/wiki/File:Jasper_Tramway_from_below_2009.jpg"}, "icefields": {"file": "assets/icefields.jpg", "cap": "Icefields Parkway near the Columbia Icefield", "author": "Florian Fuchs", "license": "CC BY 3.0", "source": "https://commons.wikimedia.org/wiki/File:Icefields_Parkway_near_Columbia_Icefield.jpg"}, "icefields-road": {"file": "assets/icefields-road.jpg", "cap": "Icefields Parkway winding through the valley", "author": "Ethan Sahagun", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Icefields_Parkway_from_the_north_side_of_Parker_Ridge.jpg"}, "banff-town": {"file": "assets/banff-town.jpg", "cap": "Town of Banff below Cascade Mountain", "author": "ParsonsPhotographyNL", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Mount_Cascade_and_the_town_of_Banff_(J).jpg"}, "poutine": {"file": "assets/poutine.jpg", "cap": "Plate of poutine", "author": "Antonydstevens", "license": "CC0", "source": "https://commons.wikimedia.org/wiki/File:Poutine_from_Windsor,_ON.jpg"}, "beavertails": {"file": "assets/beavertails.jpg", "cap": "Fried-dough pastries like BeaverTails", "author": "Arge300exx", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Fried_Dough_Toppings.jpg"}, "athabasca-falls": {"file": "assets/athabasca-falls.jpg", "cap": "Athabasca Falls", "author": "Gerald Schrenk", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Athabasca_Falls_2008.JPG"}, "stay-banff": {"file": "assets/stay-banff.jpg", "cap": "Banff Avenue", "author": "InSapphoWeTrust from Los Angeles, California, USA", "license": "CC BY-SA 2.0", "source": "https://commons.wikimedia.org/wiki/File:Banff_Avenue,_Banff_(7889960184).jpg"}, "stay-louise": {"file": "assets/stay-louise.jpg", "cap": "Samson Mall, Lake Louise village", "author": "DXR", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Samson_Mall,_Lake_Louise_20240823_1.jpg"}, "stay-jasper": {"file": "assets/stay-jasper.jpg", "cap": "Connaught Drive, Jasper", "author": "Sanchom", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Jasper_Connaught_Drive_East.jpg"}, "cave-basin": {"file": "assets/cave-basin.jpg", "cap": "Cave and Basin National Historic Site", "author": "Sovernigo", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Cave_and_Basin_National_Historic_Site.jpg"}, "park-museum": {"file": "assets/park-museum.jpg", "cap": "Banff Park Museum (inside)", "author": "Sharon Hahn Darlin", "license": "CC BY 2.0", "source": "https://commons.wikimedia.org/wiki/File:Banff_Park_Museum,_Banff,_Alberta,_Canada_May_2022_-_Interior.jpg"}, "sask-crossing": {"file": "assets/sask-crossing.jpg", "cap": "The Crossing Resort, Saskatchewan River Crossing", "author": "Qyd", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Saskatchewan_River_Crossing_resort.JPG"}};
+// countdown
+(function(){var t=new Date('2027-06-15T00:00:00-06:00'),d=Math.ceil((t-new Date())/864e5);var el=document.getElementById('cd');if(el&&d>0)el.innerHTML='⏳ <b>'+d+'</b> days until mid-June 2027 (if we go!)';})();
+// map
+(function(){if(!window.L)return;var m=L.map('map',{scrollWheelZoom:false}).setView([52.0,-116.6],7);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png',{maxZoom:18,attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'}).addTo(m);
+L.polyline(ROUTE_MAIN,{color:'#17a2a6',weight:5,opacity:.9}).addTo(m);
+L.polyline(ROUTE_YOHO,{color:'#17a2a6',weight:4,opacity:.9,dashArray:'2 8'}).addTo(m);
+L.polyline(ROUTE_BACK,{color:'#f2a65a',weight:3,opacity:.85,dashArray:'8 8'}).addTo(m);
+var P=[['✈️','Calgary Airport (YYC)',51.1215,-114.013,'Fly in, pick up the SUV. Day 1'],['🏔️','Banff',51.1784,-115.5708,'Banff Ave, Gondola, hot springs. Days 1–3'],['🌊','Johnston Canyon',51.2453,-115.8396,'Catwalks & waterfalls. Day 3'],['🛶','Lake Louise',51.4167,-116.2153,'Canoes, Lake Agnes Tea House. Days 4–5'],['📸','Moraine Lake',51.3217,-116.186,'Shuttle only, go early! Day 4'],['💚','Emerald Lake (Yoho)',51.443,-116.531,'Canoes + Natural Bridge. Day 5'],['🪞','Bow Lake',51.6763,-116.4594,'Mirror reflections. Day 6'],['🐺','Peyto Lake',51.7255,-116.5097,'Wolf-head turquoise lake. Day 6'],['🧊','Columbia Icefield',52.2196,-117.2253,'Ice Explorer + Skywalk. Day 6'],['💦','Athabasca Falls',52.6645,-117.8834,'Thundering falls. Day 6'],['🌲','Jasper',52.8737,-118.0814,'SkyTram, stars, wildlife. Days 6–9'],['🏝️','Maligne Lake / Spirit Island',52.7254,-117.6285,'Cruise to Spirit Island. Day 7'],['✈️','Edmonton Airport (YEG)',53.3097,-113.58,'Alternative fly-home airport. Day 9']];
+P.forEach(function(p){L.marker([p[2],p[3]],{icon:L.divIcon({className:'',html:'<div style="font-size:22px;background:#fff;border-radius:50%;width:36px;height:36px;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 8px rgba(0,0,0,.35);border:2px solid #17a2a6">'+p[0]+'</div>',iconSize:[36,36],iconAnchor:[18,18]})}).addTo(m).bindPopup('<b>'+p[1]+'</b><br>'+p[4]);});
+m.fitBounds([[50.95,-118.3],[53.4,-113.4]],{padding:[10,10]});})();
+// video facades: inline embed over http(s); on file:// YouTube embeds fail (Error 153), so open YouTube in a new tab
+(function(){var FILE=location.protocol==='file:';if(FILE)document.documentElement.classList.add('filemode');
+document.querySelectorAll('.vid').forEach(function(v){var b=document.createElement('span');b.className='yt';b.textContent='▶ Opens on YouTube';v.appendChild(b);v.setAttribute('role','button');v.setAttribute('tabindex','0');
+function go(){var id=v.dataset.id;if(FILE){window.open('https://www.youtube.com/watch?v='+id,'_blank','noopener');return;}if(v.querySelector('iframe'))return;var f=document.createElement('iframe');f.src='https://www.youtube-nocookie.com/embed/'+id+'?autoplay=1&rel=0';f.allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';f.allowFullscreen=true;f.title='YouTube video';f.referrerPolicy='strict-origin-when-cross-origin';v.appendChild(f);}
+v.addEventListener('click',go);v.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();go();}});});})();
+// packing
+(function(){var boxes=[].slice.call(document.querySelectorAll('#packing-lists input')),bar=document.getElementById('packbar');var s={};try{s=JSON.parse(localStorage.getItem('rk-pack')||'{}')}catch(e){}
+function upd(){var n=boxes.filter(function(b){return b.checked}).length;bar.style.width=(100*n/boxes.length)+'%';}
+boxes.forEach(function(b,i){b.checked=!!s[i];b.addEventListener('change',function(){s[i]=b.checked;try{localStorage.setItem('rk-pack',JSON.stringify(s))}catch(e){}upd();});});upd();})();
+// bingo
+(function(){var items=[['🦌','Elk'],['🐏','Bighorn sheep'],['🐻','Black bear'],['🐾','Grizzly'],['🫎','Moose'],['🦅','Eagle'],['🐿️','Squirrel'],['🦫','Beaver'],['🐐','Mountain goat'],['🦊','Fox'],['🐺','Wolf'],['🦉','Owl'],['🐦‍⬛','Raven'],['🐟','Fish'],['🦆','Loon/duck'],['🦌','Deer']];
+var g=document.getElementById('bingo'),s={};try{s=JSON.parse(localStorage.getItem('rk-bingo')||'{}')}catch(e){}
+items.forEach(function(it,i){var b=document.createElement('button');b.innerHTML='<span>'+it[0]+'</span>'+it[1];if(s[i])b.classList.add('hit');b.onclick=function(){b.classList.toggle('hit');s[i]=b.classList.contains('hit');try{localStorage.setItem('rk-bingo',JSON.stringify(s))}catch(e){}};g.appendChild(b);});})();
+// lightbox
+function openLb(k){var m=META[k];if(!m)return;document.getElementById('lbimg').src=m.file;document.getElementById('lbcap').innerHTML=m.cap+' · Photo: '+m.author+' · <a href="'+m.source+'" target="_blank" rel="noopener">'+m.license+' (Wikimedia Commons)</a>';document.getElementById('lb').classList.add('on');}
+function closeLb(){document.getElementById('lb').classList.remove('on');}
+document.addEventListener('keydown',function(e){if(e.key==='Escape')closeLb();});
+document.querySelectorAll('img[data-k]').forEach(function(i){if(i.closest('.love')||i.classList.contains('bg'))return;i.addEventListener('click',function(){openLb(i.dataset.k)});});
+// nav highlight + close mobile menu
+(function(){var links=[].slice.call(document.querySelectorAll('nav .links a'));links.forEach(function(a){a.addEventListener('click',function(){document.querySelector('.links').classList.remove('open')})});
+var obs=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){links.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+e.target.id)})}})},{rootMargin:'-40% 0px -55% 0px'});
+links.forEach(function(a){var s=document.querySelector(a.getAttribute('href'));if(s)obs.observe(s)});})();
+</script>
+</body></html>
